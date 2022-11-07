@@ -8,7 +8,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/slide-1.jpg",
             "heading": "Creating your space. Detail by detail.",
-            "heading_size": "h2",
+            "heading_size": "h3",
             "subheading": "Cursus elit, iaculis platea integer nisl sapien egestas. Itae donec ornare iaculis mauris nec ultrices ullamcorper tempus dignissim, sed at maecenas elit odio blandit sem.",
             "button_label": "Shop all new arrivals",
             "link": "shopify:\/\/collections\/mens",
