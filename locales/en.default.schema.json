@@ -397,7 +397,8 @@
         "padding_top": "Top padding",
         "padding_bottom": "Bottom padding",
         "padding_left": "Left padding",
-        "padding_right": "Right padding"
+        "padding_right": "Right padding",
+        "image_spacing": "Image vs Content padding"
       },
       "spacing": "Spacing",
       "colors": {
