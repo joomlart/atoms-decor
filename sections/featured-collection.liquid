@@ -62,6 +62,8 @@
         <h2 class="title {{ section.settings.heading_size }}">{{ section.settings.title | escape }}</h2>
       {%- endif -%}
 
+      {{ collection_description }}
+
       {%- if section.settings.show_view_all and more_in_collection and section.settings.view_all_style == 'link' -%}
         <div class="center collection__view-all">
           <a href="{{ section.settings.collection.url }}"
