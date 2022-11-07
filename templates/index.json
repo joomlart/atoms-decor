@@ -84,6 +84,57 @@
         "padding_bottom": 24
       }
     },
+    "dc646dd5-5ce4-43d9-8821-2cdc64d8608f": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15049366437961__dc646dd5-5ce4-43d9-8821-2cdc64d8608f-16678032585a7fdc53-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/feature-1.png",
+            "title": "Column",
+            "icon": "none",
+            "icon_position": "left",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--15049366437961__dc646dd5-5ce4-43d9-8821-2cdc64d8608f-16678032585a7fdc53-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/feature-2.png",
+            "title": "Column",
+            "icon": "none",
+            "icon_position": "left",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15049366437961__dc646dd5-5ce4-43d9-8821-2cdc64d8608f-16678032585a7fdc53-0",
+        "template--15049366437961__dc646dd5-5ce4-43d9-8821-2cdc64d8608f-16678032585a7fdc53-1"
+      ],
+      "settings": {
+        "title": "",
+        "sub-title": "",
+        "mod_class": "",
+        "heading_size": "h4",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "16639099959fcc61f9": {
       "type": "featured-collection",
       "settings": {
@@ -239,6 +290,7 @@
   },
   "order": [
     "1663955354d4347362",
+    "dc646dd5-5ce4-43d9-8821-2cdc64d8608f",
     "16639099959fcc61f9",
     "1661322877e178c8dc",
     "166411064760263243"
