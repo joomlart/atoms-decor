@@ -149,7 +149,7 @@
         "title": "Collection 2020 Highlights",
         "heading_size": "h4",
         "description": "<p>Cursus elit, iaculis platea integer nisl sapien egestas. Itae donec ornare iaculis mauris nec ultrices ullamcorper tempus dignissim. Purus odio blandit sem.<\/p>",
-        "show_description": true,
+        "show_description": false,
         "description_style": "body",
         "collection": "latest-products",
         "show_card_collection": false,
