@@ -91,6 +91,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/feature-1.png",
+            "image_position": "bottom",
             "title": "#Vintage #Unique Fall\/Spring Furniture Collection",
             "icon": "none",
             "icon_position": "left",
@@ -103,6 +104,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/feature-2.png",
+            "image_position": "top",
             "title": "#Urban #Solid Mid Rise Zespy Trackie Clothing Loobook SS’20",
             "icon": "none",
             "icon_position": "left",
@@ -191,6 +193,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/adidas-2.png",
+            "image_position": "top",
             "title": "",
             "icon": "none",
             "icon_position": "center",
@@ -203,6 +206,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/celine.png",
+            "image_position": "top",
             "title": "",
             "icon": "none",
             "icon_position": "center",
@@ -215,6 +219,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/nike-11_1.png",
+            "image_position": "top",
             "title": "",
             "icon": "none",
             "icon_position": "center",
@@ -227,6 +232,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/the-north-face-1_1.png",
+            "image_position": "top",
             "title": "",
             "icon": "none",
             "icon_position": "center",
@@ -239,6 +245,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/michael-kors.png",
+            "image_position": "top",
             "title": "",
             "icon": "none",
             "icon_position": "center",
@@ -251,6 +258,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/vogue_1f02433b-e8e9-4e17-86e3-09e1bf60ce8b.png",
+            "image_position": "top",
             "title": "",
             "icon": "none",
             "icon_position": "center",
