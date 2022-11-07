@@ -293,10 +293,6 @@
   margin-left: auto;
 }
 
-.title-wrapper-02 p.collection__description p {
-  font-size: 1.8rem;
-}
-
 @media screen and (max-width: 749px) {
   .title-wrapper-02 .collection__description {
     width: 90%;

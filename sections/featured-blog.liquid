@@ -39,9 +39,13 @@
 <div class="blog color-{{ section.settings.color_scheme }} gradient{% if section.settings.heading == blank %} no-heading{% endif %}">
   <div class="isolate{% if posts_displayed < 3 %} page-width-tablet{% endif %} section-{{ section.id }}-padding">
     {%- unless section.settings.heading == blank -%}
-      <div class="blogs__title title-wrapper title-wrapper--no-top-margin page-width{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}">
+      <div class="blogs__title title-wrapper title-wrapper--no-top-margin title-wrapper-{{ section.settings.title_style }} page-width{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}">
         <div class="inner">
           <h2 id="SectionHeading-{{ section.id }}" class="blog__title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</h2>
+
+          {%- if section.settings.description != blank and section.settings.show_description -%}
+            <div class="blogs__description {{ section.settings.description_style }}">{%- if section.settings.show_description -%}{{ section.settings.description }}{% endif %}</div>
+          {%- endif -%}
 
           {%- if section.settings.show_view_all and section.settings.post_limit < section.settings.blog.articles_count -%}
             <div class="blog__view-all center small-hide medium-hide">
@@ -128,6 +132,47 @@
       ],
       "default": "h4",
       "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "select",
+      "id": "title_style",
+      "label": "t:sections.featured-blog.settings.title_style.label",
+      "options": [
+        {
+          "value": "01",
+          "label": "t:sections.featured-blog.settings.title_style.options__1.label"
+        },
+        {
+          "value": "02",
+          "label": "t:sections.featured-blog.settings.title_style.options__2.label"
+        }
+      ],
+      "default": "01"
+    },
+    {
+      "type": "select",
+      "id": "description_style",
+      "label": "t:sections.featured-blog.settings.description_style.label",
+      "options": [
+        {
+          "value": "body",
+          "label": "t:sections.featured-blog.settings.description_style.options__1.label"
+        },
+        {
+          "value": "subtitle",
+          "label": "t:sections.featured-blog.settings.description_style.options__2.label"
+        },
+        {
+          "value": "uppercase",
+          "label": "t:sections.featured-blog.settings.description_style.options__3.label"
+        }
+      ],
+      "default": "body"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "t:sections.featured-blog.settings.description.label"
     },
     {
       "type": "blog",
