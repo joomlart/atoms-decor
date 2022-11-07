@@ -33,7 +33,7 @@
   display: block;
 }
 
-.collection--empty .title-wrapper {
+.collection--empty .title-wrapper.title-wrapper-01 {
   margin-top: 10rem;
   margin-bottom: 15rem;
 }
@@ -63,29 +63,29 @@
   margin: 0;
 }
 
-.collection__title.title-wrapper {
+.collection__title.title-wrapper.title-wrapper-01 {
   margin-bottom: 2.5rem;
 }
 
-.collection-product-list .title-wrapper--self-padded-tablet-down, 
-.collection-product-list .title-wrapper--self-padded-mobile {
+.collection-product-list .title-wrapper--self-padded-tablet-down.title-wrapper-01, 
+.collection-product-list .title-wrapper--self-padded-mobile.title-wrapper-01 {
   padding: 0;
 }
 
-.collection__title .title:not(:only-child) {
+.collection__title.title-wrapper-01 .title:not(:only-child) {
   margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 990px) {
-  .collection__title--desktop-slider .title {
+  .collection__title--desktop-slider.title-wrapper-01 .title {
     margin-bottom: 2.5rem;
   }
 
-  .collection__title.title-wrapper--self-padded-tablet-down {
+  .collection__title.title-wrapper--self-padded-tablet-down.title-wrapper-01 {
     padding: 0 5rem;
   }
 
-  .collection-product-list .collection__title.title-wrapper--self-padded-tablet-down {
+  .collection-product-list .collection__title.title-wrapper--self-padded-tablet-down.title-wrapper-01 {
     padding: 0;
   }
 
@@ -120,18 +120,18 @@
   width: 1.6rem;
 }
 
-.collection__title .inner .title {
+.collection__title.title-wrapper-01 .inner .title {
   margin-top: 0;
   margin-bottom: 0;
   font-weight: 500;
   text-transform: uppercase;
 }
 
-.collection__title .inner .h4 {
+.collection__title.title-wrapper-01 .inner .h4 {
   font-size: calc(var(--font-heading-scale) * 1.8rem);
 }
 
-.collection__title .inner {
+.collection__title.title-wrapper-01 .inner {
   border-top: 2px solid rgba(var(--color-base-accent-1));
   border-bottom: 1px solid rgba(var(--color-foreground),var(--text-boxes-border-opacity));
   padding: 1.6rem 0;
@@ -146,11 +146,11 @@
   justify-content: space-between;
 }
 
-.collection__title .inner:not(:only-child) {
+.collection__title.title-wrapper-01 .inner:not(:only-child) {
   margin-bottom: 1rem;
 }
 
-.collection__title .inner .link {
+.collection__title.title-wrapper-01 .inner .link {
   text-decoration: none;
 }
 
@@ -274,4 +274,9 @@
   .collection-product-list .slider.slider--mobile {
     scroll-padding-left: 0;
   }
+}
+
+/* Title Style 02 */
+.title-wrapper-02 {
+  
 }

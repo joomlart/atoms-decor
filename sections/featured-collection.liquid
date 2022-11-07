@@ -56,13 +56,15 @@
   <div class="collection section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %}">
 
     {%- unless section.settings.title == blank -%}
-    <div class="collection__title title-wrapper title-wrapper--no-top-margin page-width{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}{% if show_desktop_slider %} collection__title--desktop-slider{% endif %}">
+    <div class="collection__title title-wrapper title-wrapper--no-top-margin title-wrapper-{{ section.settings.title_style }} page-width{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}{% if show_desktop_slider %} collection__title--desktop-slider{% endif %}">
       <div class="inner">
       {%- if section.settings.title != blank -%}
         <h2 class="title {{ section.settings.heading_size }}">{{ section.settings.title | escape }}</h2>
       {%- endif -%}
 
-      {{ collection_description }}
+      {%- if section.settings.description != blank or section.settings.show_description and section.settings.collection.description != empty -%}
+        <div class="collection__description {{ section.settings.description_style }}">{%- if section.settings.show_description -%}{{ section.settings.collection.description }}{%- else -%}{{ section.settings.description }}{% endif %}</div>
+      {%- endif -%}
 
       {%- if section.settings.show_view_all and more_in_collection and section.settings.view_all_style == 'link' -%}
         <div class="center collection__view-all">
@@ -213,6 +215,22 @@
         }
       ],
       "default": "body"
+    },
+    {
+      "type": "select",
+      "id": "title_style",
+      "label": "t:sections.featured-collection.settings.title_style.label",
+      "options": [
+        {
+          "value": "01",
+          "label": "t:sections.featured-collection.settings.title_style.options__1.label"
+        },
+        {
+          "value": "02",
+          "label": "t:sections.featured-collection.settings.title_style.options__2.label"
+        }
+      ],
+      "default": "01"
     },
     {
       "type": "collection",
