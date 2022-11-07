@@ -34,15 +34,16 @@
     text-align: center;
   }
 
-  .blogs__title.title-wrapper--self-padded-tablet-down {
+  .blogs__title.title-wrapper--self-padded-tablet-down.title-wrapper-01 {
     padding: 0 5rem;
   }
 }
 
-.blogs__title .inner {
+.blogs__title.title-wrapper-01 .inner {
   border-top: 2px solid rgba(var(--color-base-accent-1));
   border-bottom: 1px solid rgba(var(--color-foreground),var(--text-boxes-border-opacity));
   padding: 1.6rem 0;
+  text-align: left;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -54,18 +55,18 @@
   justify-content: space-between;
 }
 
-.blogs__title .inner .blog__title {
+.blogs__title.title-wrapper-01 .inner .blog__title {
   margin-top: 0;
   margin-bottom: 0;
   font-weight: 500;
   text-transform: uppercase;
 }
 
-.blogs__title .inner .h4 {
+.blogs__title.title-wrapper-01 .inner .h4 {
   font-size: calc(var(--font-heading-scale) * 1.8rem);
 }
 
-.blog__title {
+.title-wrapper-01 .blog__title {
   margin: 0;
 }
 
@@ -116,18 +117,18 @@
   }
 }
 
-.blog .title-wrapper-with-link .inner .blog__title {
+.blog .title-wrapper-with-link.title-wrapper-01 .inner .blog__title {
   margin-top: 0;
   margin-bottom: 0;
   font-weight: 500;
   text-transform: uppercase;
 }
 
-.blog .title-wrapper-with-link .inner .h2 {
+.blog .title-wrapper-with-link.title-wrapper-01 .inner .h2 {
   font-size: calc(var(--font-heading-scale) * 1.8rem);
 }
 
-.blog .title-wrapper-with-link .inner {
+.blog .title-wrapper-with-link.title-wrapper-01 .inner {
   border-top: 2px solid rgba(var(--color-base-accent-1));
   border-bottom: 1px solid rgba(var(--color-foreground),var(--text-boxes-border-opacity));
   padding: 1.6rem 0;
@@ -143,11 +144,11 @@
   justify-content: space-between;
 }
 
-.blog .title-wrapper-with-link .inner:not(:only-child) {
+.blog .title-wrapper-with-link.title-wrapper-01 .inner:not(:only-child) {
   margin-bottom: 1rem;
 }
 
-.blog .title-wrapper-with-link .inner .link {
+.blog .title-wrapper-with-link.title-wrapper-01 .inner .link {
   text-decoration: none;
 }
 
@@ -170,4 +171,27 @@
 
 .blog__view-all a:hover span.icon-wrap svg {
   width: 1.6rem;
+}
+
+/* Title Style 02 */
+.title-wrapper-02 {
+  text-align: center;
+  margin-bottom: 6.4rem;
+}
+
+.title-wrapper-02 .title {
+  margin-top: 0;
+  margin-bottom: 1.6rem;
+}
+
+.title-wrapper-02 .blogs__description  {
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 749px) {
+  .title-wrapper-02 .blogs__description {
+    width: 90%;
+  }
 }
