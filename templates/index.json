@@ -97,7 +97,9 @@
             "icon_position": "left",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "padding_left": 0,
+            "padding_right": 92
           }
         },
         "template--15049366437961__dc646dd5-5ce4-43d9-8821-2cdc64d8608f-16678032585a7fdc53-1": {
@@ -110,7 +112,9 @@
             "icon_position": "left",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "padding_left": 0,
+            "padding_right": 0
           }
         }
       },
@@ -128,6 +132,7 @@
         "columns_desktop": 2,
         "column_alignment": "center",
         "background_style": "primary",
+        "card_spacing": 25,
         "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
@@ -199,7 +204,9 @@
             "icon_position": "center",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "padding_left": 32,
+            "padding_right": 32
           }
         },
         "1664110647b9e3e26c-1": {
@@ -212,7 +219,9 @@
             "icon_position": "center",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "padding_left": 32,
+            "padding_right": 32
           }
         },
         "1664110647b9e3e26c-2": {
@@ -225,7 +234,9 @@
             "icon_position": "center",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "padding_left": 32,
+            "padding_right": 32
           }
         },
         "c0e7e888-7c35-4237-8ade-6e2e44de8c93": {
@@ -238,7 +249,9 @@
             "icon_position": "center",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "padding_left": 32,
+            "padding_right": 32
           }
         },
         "f7bfe4d6-2db9-49b4-8743-9d91349f1c52": {
@@ -251,7 +264,9 @@
             "icon_position": "center",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "padding_left": 32,
+            "padding_right": 32
           }
         },
         "77673be6-3642-430f-8c4b-c943e79e2923": {
@@ -264,7 +279,9 @@
             "icon_position": "center",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "padding_left": 32,
+            "padding_right": 32
           }
         }
       },
@@ -286,6 +303,7 @@
         "columns_desktop": 6,
         "column_alignment": "left",
         "background_style": "primary",
+        "card_spacing": 25,
         "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
