@@ -63,7 +63,11 @@
           {%- endif -%}
 
           <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="multicolumn-list__item grid__item{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}{% if section.settings.column_alignment == 'center' %} center{% endif %}{{ empty_column }}" {{ block.shopify_attributes }}>            
-            <div class="multicolumn-card content-container">
+            <div class="multicolumn-card content-container" 
+              {%- if block.settings.padding_left or block.settings.padding_right -%}
+                style="{%- if block.settings.padding_left -%}padding-left: {{ block.settings.padding_left }}px;{%- endif -%} {%- if block.settings.padding_right -%}padding-right: {{ block.settings.padding_right }}px{%- endif -%}"
+              {%- endif -%}
+            >
               {%- if block.settings.image != blank and block.settings.image_position == "top" -%}
                 {% if section.settings.image_ratio == 'adapt' or section.settings.image_ratio == 'circle' %}
                   {% assign spaced_image = true %}
@@ -293,6 +297,15 @@
       ],
       "default": "primary",
       "label": "t:sections.multicolumn.settings.background_style.label"
+    },
+    {
+      "type": "range",
+      "id": "card_spacing",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 25,
+      "label": "t:sections.multicolumn.settings.card_spacing.label"
     },
     {
       "type": "text",
@@ -635,6 +648,30 @@
           "type": "url",
           "id": "link",
           "label": "t:sections.multicolumn.blocks.column.settings.link.label"
+        },
+        {
+          "type": "header",
+          "content": "t:sections.all.padding.block_padding_heading"
+        },
+        {
+          "type": "range",
+          "id": "padding_left",
+          "min": 0,
+          "max": 100,
+          "step": 4,
+          "unit": "px",
+          "label": "t:sections.all.padding.padding_left",
+          "default": 32
+        },
+        {
+          "type": "range",
+          "id": "padding_right",
+          "min": 0,
+          "max": 100,
+          "step": 4,
+          "unit": "px",
+          "label": "t:sections.all.padding.padding_right",
+          "default": 32
         }
       ]
     }
