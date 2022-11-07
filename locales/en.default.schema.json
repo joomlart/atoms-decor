@@ -2346,6 +2346,15 @@
               "options__3": {
                 "label": "Right"
               }
+            },
+            "image_position": {
+              "label": "Image Position",
+              "options__1": {
+                "label": "Top"
+              },
+              "options__2": {
+                "label": "Bottom"
+              }
             }
           }
         }
