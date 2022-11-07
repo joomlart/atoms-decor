@@ -99,7 +99,8 @@
             "link_label": "",
             "link": "",
             "padding_left": 0,
-            "padding_right": 92
+            "padding_right": 92,
+            "image_spacing": 64
           }
         },
         "template--15049366437961__dc646dd5-5ce4-43d9-8821-2cdc64d8608f-16678032585a7fdc53-1": {
@@ -114,7 +115,8 @@
             "link_label": "",
             "link": "",
             "padding_left": 0,
-            "padding_right": 0
+            "padding_right": 0,
+            "image_spacing": 64
           }
         }
       },
@@ -206,7 +208,8 @@
             "link_label": "",
             "link": "",
             "padding_left": 32,
-            "padding_right": 32
+            "padding_right": 32,
+            "image_spacing": 25
           }
         },
         "1664110647b9e3e26c-1": {
@@ -221,7 +224,8 @@
             "link_label": "",
             "link": "",
             "padding_left": 32,
-            "padding_right": 32
+            "padding_right": 32,
+            "image_spacing": 25
           }
         },
         "1664110647b9e3e26c-2": {
@@ -236,7 +240,8 @@
             "link_label": "",
             "link": "",
             "padding_left": 32,
-            "padding_right": 32
+            "padding_right": 32,
+            "image_spacing": 25
           }
         },
         "c0e7e888-7c35-4237-8ade-6e2e44de8c93": {
@@ -251,7 +256,8 @@
             "link_label": "",
             "link": "",
             "padding_left": 32,
-            "padding_right": 32
+            "padding_right": 32,
+            "image_spacing": 25
           }
         },
         "f7bfe4d6-2db9-49b4-8743-9d91349f1c52": {
@@ -266,7 +272,8 @@
             "link_label": "",
             "link": "",
             "padding_left": 32,
-            "padding_right": 32
+            "padding_right": 32,
+            "image_spacing": 25
           }
         },
         "77673be6-3642-430f-8c4b-c943e79e2923": {
@@ -281,7 +288,8 @@
             "link_label": "",
             "link": "",
             "padding_left": 32,
-            "padding_right": 32
+            "padding_right": 32,
+            "image_spacing": 25
           }
         }
       },
