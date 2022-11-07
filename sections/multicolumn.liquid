@@ -96,7 +96,14 @@
                   </div>
                 </div>
               {%- endif -%}
-              <div class="multicolumn-card__info">
+              <div class="multicolumn-card__info" 
+                {%- if block.settings.image_spacing and block.settings.image_position == "top" -%}
+                style="padding-top: {{ block.settings.image_spacing }}px;"
+                {%- endif -%}
+                {%- if block.settings.image_spacing and block.settings.image_position == "bottom" -%}
+                style="padding-bottom: {{ block.settings.image_spacing }}px;"
+                {%- endif -%}
+              >
                 {%- if block.settings.icon != 'none' -%}
                 <div class="multicolumn-card-title-wrap {{ block.settings.icon_position }}">
                   {% render 'icon-accordion', icon: block.settings.icon %}
@@ -672,6 +679,16 @@
           "unit": "px",
           "label": "t:sections.all.padding.padding_right",
           "default": 32
+        },
+        {
+          "type": "range",
+          "id": "image_spacing",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "label": "t:sections.all.padding.image_spacing",
+          "default": 25
         }
       ]
     }
