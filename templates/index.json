@@ -140,10 +140,10 @@
     "16639099959fcc61f9": {
       "type": "featured-collection",
       "settings": {
-        "title": "New Arrivials",
+        "title": "Collection 2020 Highlights",
         "heading_size": "h4",
-        "description": "",
-        "show_description": false,
+        "description": "<p>Cursus elit, iaculis platea integer nisl sapien egestas. Itae donec ornare iaculis mauris nec ultrices ullamcorper tempus dignissim. Purus odio blandit sem.<\/p>",
+        "show_description": true,
         "description_style": "body",
         "collection": "latest-products",
         "show_card_collection": false,
@@ -151,7 +151,7 @@
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
-        "view_all_style": "link",
+        "view_all_style": "outline",
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
         "desktop_layout": "left",
