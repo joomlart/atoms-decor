@@ -673,6 +673,36 @@
         "heading": {
           "label": "Heading"
         },
+        "description": {
+          "label": "Description"
+        },
+        "show_description": {
+          "label": "Show collection description from the admin"
+        },
+        "description_style": {
+          "label": "Description style",
+          "options__1": {
+            "label": "Body"
+          },
+          "options__2": {
+            "label": "Subtitle"
+          },
+          "options__3": {
+            "label": "Uppercase"
+          }
+        },
+        "title_style": {
+          "label": "Title style",
+          "options__1": {
+            "label": "01"
+          },
+          "options__2": {
+            "label": "02"
+          },
+          "options__3": {
+            "label": "03"
+          }
+        },
         "blog": {
           "label": "Blog"
         },
