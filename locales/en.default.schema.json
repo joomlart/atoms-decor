@@ -756,6 +756,18 @@
             "label": "Uppercase"
           }
         },
+        "title_style": {
+          "label": "Title style",
+          "options__1": {
+            "label": "01"
+          },
+          "options__2": {
+            "label": "02"
+          },
+          "options__3": {
+            "label": "03"
+          }
+        },
         "collection": {
           "label": "Collection"
         },
