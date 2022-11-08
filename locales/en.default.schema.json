@@ -442,6 +442,12 @@
         "options__4": {
           "label": "Extra large"
         }
+      },
+      "bg_colors": {
+        "label": "Background Color"
+      },
+      "text_colors": {
+        "label": "Text Color"
       }
     },
     "announcement-bar": {

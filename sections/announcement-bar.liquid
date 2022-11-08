@@ -1,4 +1,11 @@
 {% style %}
+.announcement-bar {
+  --color-foreground: {{ section.settings.text_colors.red }}, {{ section.settings.text_colors.green }}, {{ section.settings.text_colors.blue }};
+  --color-background: {{ section.settings.bg_colors.red }}, {{ section.settings.bg_colors.green }}, {{ section.settings.bg_colors.blue }};
+  --gradient-background:  {{ section.settings.bg_colors.red }}, {{ section.settings.bg_colors.green }}, {{ section.settings.bg_colors.blue }};
+  background: rgb(var(--color-background));
+}
+
 .account-top {
   align-items: center;
   display: flex;
@@ -25,7 +32,7 @@
 .announcement-bar__message {
 }
 {% endstyle %}
-<div class="announcement-bar color-{{ section.settings.color_scheme }} gradient" role="region" aria-label="{{ 'sections.header.announcement' | t }}">
+<div class="announcement-bar gradient" role="region" aria-label="{{ 'sections.header.announcement' | t }}">
   <div class="{% if section.settings.full_width %}announcement--full-width{%- else -%}page-width{% endif %}">
     <div class="announcement-bar-inner">
     {%- for block in section.blocks -%}
@@ -58,32 +65,16 @@
   "max_blocks": 2,
   "settings": [
     {
-      "type": "select",
-      "id": "color_scheme",
-      "options": [
-        {
-          "value": "accent-1",
-          "label": "t:sections.all.colors.accent_1.label"
-        },
-        {
-          "value": "accent-2",
-          "label": "t:sections.all.colors.accent_2.label"
-        },
-        {
-          "value": "background-1",
-          "label": "t:sections.all.colors.background_1.label"
-        },
-        {
-          "value": "background-2",
-          "label": "t:sections.all.colors.background_2.label"
-        },
-        {
-          "value": "inverse",
-          "label": "t:sections.all.colors.inverse.label"
-        }
-      ],
-      "default": "accent-1",
-      "label": "t:sections.all.colors.label"
+      "type": "color",
+      "id": "bg_colors",
+      "default": "#212121",
+      "label": "t:sections.all.bg_colors.label"
+    },
+    {
+      "type": "color",
+      "id": "text_colors",
+      "default": "#FFFFFF",
+      "label": "t:sections.all.text_colors.label"
     },
     {
       "type": "checkbox",
@@ -103,9 +94,9 @@
       "name": "t:sections.announcement-bar.blocks.announcement.name",
       "settings": [
         {
-          "type": "text",
+          "type": "richtext",
           "id": "text",
-          "default": "Welcome to our store",
+          "default": "<p>Welcome to our store</p>",
           "label": "t:sections.announcement-bar.blocks.announcement.settings.text.label"
         },
         {
