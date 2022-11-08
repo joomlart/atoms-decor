@@ -1,7 +1,7 @@
 {
   "current": {
     "header_layout": "03",
-    "footer_layout": "03",
+    "footer_layout": "02",
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#212121",
     "gradient_accent_1": "",
@@ -283,15 +283,6 @@
               "menu": "footer"
             }
           },
-          "b463e4df-97c2-4085-b0c5-7c6ccf494018": {
-            "type": "logo_image",
-            "settings": {
-              "show_logo": true,
-              "image": "shopify:\/\/shop_images\/atoms-logo_ab356fac-ace1-43d8-8c8a-369c6f83533b.png",
-              "image_width": 150,
-              "alignment": "center"
-            }
-          },
           "0ab51a22-bfd0-4d40-8344-bacf47ebe682": {
             "type": "newsletter",
             "settings": {
@@ -300,19 +291,18 @@
               "newsletter_intro": "Subscribe to the Joomlart newsletter to receive timely updates from your favorite products."
             }
           },
-          "e353d370-e651-4770-8ed4-814608793d1c": {
-            "type": "text",
+          "4bb20c11-7066-4696-b580-2de3fbf9fa0c": {
+            "type": "link_list",
             "settings": {
-              "show_heading": true,
-              "heading": "About Us",
-              "show_subtext": true,
-              "subtext": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.<\/p>"
+              "heading": "Quick links",
+              "menu": "footer"
             }
           },
-          "344738c6-b9c0-419f-8854-2da0d178cf80": {
-            "type": "social",
+          "c929164f-a119-45f6-b494-35b8acacb8b0": {
+            "type": "link_list",
             "settings": {
-              "show_social": true
+              "heading": "Quick links",
+              "menu": "social"
             }
           }
         },
@@ -320,19 +310,18 @@
           "footer-4",
           "footer-5",
           "footer-6",
-          "b463e4df-97c2-4085-b0c5-7c6ccf494018",
           "0ab51a22-bfd0-4d40-8344-bacf47ebe682",
-          "e353d370-e651-4770-8ed4-814608793d1c",
-          "344738c6-b9c0-419f-8854-2da0d178cf80"
+          "4bb20c11-7066-4696-b580-2de3fbf9fa0c",
+          "c929164f-a119-45f6-b494-35b8acacb8b0"
         ],
         "settings": {
-          "color_scheme": "background-1",
+          "color_scheme": "accent-1",
           "enable_country_selector": true,
           "enable_language_selector": true,
           "payment_enable": true,
           "margin_top": 0,
-          "padding_top": 0,
-          "padding_bottom": 24
+          "padding_top": 64,
+          "padding_bottom": 64
         }
       },
       "header-03": {
@@ -365,7 +354,9 @@
           "footer-03-1": {
             "type": "text",
             "settings": {
+              "show_heading": true,
               "heading": "Heading",
+              "show_subtext": true,
               "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
             }
           }
@@ -376,10 +367,6 @@
         ],
         "settings": {
           "color_scheme": "background-1",
-          "newsletter_enable": true,
-          "newsletter_heading": "Subscribe to our emails",
-          "newsletter_intro": "Subscribe to the Joomlart newsletter to receive timely updates from your favorite products.",
-          "show_social": false,
           "enable_country_selector": true,
           "enable_language_selector": true,
           "payment_enable": true,
