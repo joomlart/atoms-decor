@@ -2322,6 +2322,18 @@
         "columns_desktop": {
           "label": "Number of columns on desktop"
         },
+        "row_alignment": {
+          "label": "Row alignment",
+          "options__1": {
+            "label": "Top"
+          },
+          "options__2": {
+            "label": "Middle"
+          },
+          "options__3": {
+            "label": "Bottom"
+          }
+        },
         "column_alignment": {
           "label": "Column alignment",
           "options__1": {

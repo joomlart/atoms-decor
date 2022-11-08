@@ -1,3 +1,15 @@
+.align-items-top {
+  align-items: flex-start;
+}
+
+.align-items-bottom {
+  align-items: flex-end;
+}
+
+.align-items-middle {
+  align-items: center;
+}
+
 .multicolumn .title-wrapper .inner .title {
   margin-top: 0;
   margin-bottom: 0;
