@@ -259,6 +259,140 @@
         "padding_top": 64,
         "padding_bottom": 64
       }
+    },
+    "852a22c8-3302-4a08-9752-571a7d4ca859": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15049366437961__852a22c8-3302-4a08-9752-571a7d4ca859-1667894991c4a70bcf-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/photo-01.png",
+            "image_position": "top",
+            "title": "",
+            "icon": "none",
+            "icon_position": "left",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "link_style": "link",
+            "padding_left": 32,
+            "padding_right": 32,
+            "image_spacing": 25
+          }
+        },
+        "template--15049366437961__852a22c8-3302-4a08-9752-571a7d4ca859-1667894991c4a70bcf-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/photo-02.png",
+            "image_position": "top",
+            "title": "",
+            "icon": "none",
+            "icon_position": "left",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "link_style": "link",
+            "padding_left": 32,
+            "padding_right": 32,
+            "image_spacing": 25
+          }
+        },
+        "template--15049366437961__852a22c8-3302-4a08-9752-571a7d4ca859-1667894991c4a70bcf-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/photo-03.png",
+            "image_position": "top",
+            "title": "",
+            "icon": "none",
+            "icon_position": "left",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "link_style": "link",
+            "padding_left": 32,
+            "padding_right": 32,
+            "image_spacing": 25
+          }
+        },
+        "522f3e78-c586-402f-82a3-0a7a31252702": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/photo-04.png",
+            "image_position": "top",
+            "title": "",
+            "icon": "none",
+            "icon_position": "left",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "link_style": "link",
+            "padding_left": 32,
+            "padding_right": 32,
+            "image_spacing": 25
+          }
+        },
+        "257ae115-4902-4861-8782-b7181d3c8b68": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/photo-05.png",
+            "image_position": "top",
+            "title": "",
+            "icon": "none",
+            "icon_position": "left",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "link_style": "link",
+            "padding_left": 32,
+            "padding_right": 32,
+            "image_spacing": 25
+          }
+        },
+        "b108019e-7a44-4d64-a2a2-cbbdaad59038": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/photo-06.png",
+            "image_position": "top",
+            "title": "",
+            "icon": "none",
+            "icon_position": "left",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "link_style": "link",
+            "padding_left": 32,
+            "padding_right": 32,
+            "image_spacing": 25
+          }
+        }
+      },
+      "block_order": [
+        "template--15049366437961__852a22c8-3302-4a08-9752-571a7d4ca859-1667894991c4a70bcf-0",
+        "template--15049366437961__852a22c8-3302-4a08-9752-571a7d4ca859-1667894991c4a70bcf-1",
+        "template--15049366437961__852a22c8-3302-4a08-9752-571a7d4ca859-1667894991c4a70bcf-2",
+        "522f3e78-c586-402f-82a3-0a7a31252702",
+        "257ae115-4902-4861-8782-b7181d3c8b68",
+        "b108019e-7a44-4d64-a2a2-cbbdaad59038"
+      ],
+      "settings": {
+        "title": "",
+        "sub-title": "",
+        "mod_class": "background-none",
+        "heading_size": "h4",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 6,
+        "row_alignment": "top",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Follow us @ubtrex3",
+        "button_link": "https:\/\/www.instagram.com\/joomlart\/",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 64,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -266,6 +400,7 @@
     "dc646dd5-5ce4-43d9-8821-2cdc64d8608f",
     "16639099959fcc61f9",
     "f4c8b5a2-f7f2-4ee6-bbef-8dfda6e9ce6b",
-    "1661322877e178c8dc"
+    "1661322877e178c8dc",
+    "852a22c8-3302-4a08-9752-571a7d4ca859"
   ]
 }
