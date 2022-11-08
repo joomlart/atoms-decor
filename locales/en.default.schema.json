@@ -2300,6 +2300,15 @@
         "sub-title": {
           "label": "Sub Heading"
         },
+        "layout": {
+          "label": "Layout",
+          "options__1": {
+            "label": "Full width"
+          },
+          "options__2": {
+            "label": "Grid"
+          }
+        },
         "image_width": {
           "label": "Image width",
           "options__1": {
