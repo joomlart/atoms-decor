@@ -120,7 +120,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Free U.S. Shipping Orders $60+ | Free Returns & Exchanges",
+              "text": "<p>Limited Time Only! Get 10% Off Your First Order in 2020 With Code <strong>Ubtrex2020<\/strong><\/p>",
               "content_alignment": "center"
             }
           }
@@ -129,7 +129,8 @@
           "announcement-bar-0"
         ],
         "settings": {
-          "color_scheme": "accent-1",
+          "bg_colors": "#212121",
+          "text_colors": "#FFFFFF",
           "full_width": true,
           "mod_class": ""
         }
