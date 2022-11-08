@@ -165,7 +165,7 @@
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
         "desktop_layout": "left",
-        "image_ratio": "adapt",
+        "image_ratio": "portrait",
         "show_secondary_image": true,
         "show_vendor": true,
         "show_rating": false,
