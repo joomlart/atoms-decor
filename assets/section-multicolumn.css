@@ -369,3 +369,17 @@
     max-width: calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 / 3);
   }
 }
+
+/* Instagram */
+.multicolumn.section-instagram {
+  --grid-desktop-horizontal-spacing: 0;
+  --grid-desktop-vertical-spacing: 0;
+  position: relative;
+}
+
+.multicolumn.section-instagram .button {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
