@@ -1,4 +1,4 @@
-<newsletter-popup class="gradient popup newsletter-popup {% if settings.show_newsletter_popup_image %} customPopup-banner custom-scrollbar{% endif %}" data-newsletter-popup data-delay="{{ settings.newsletter_popup_delay | times:1000 }}" data-expire="{{ settings.newsletter_popup_expire }}" id="newsletter-popup">
+<newsletter-popup class="gradient popup newsletter-popup {% if settings.show_newsletter_popup_image %} customPopup-banner custom-scrollbar{% endif %}" data-newsletter-popup data-delay="{{ settings.newsletter_popup_delay | times: 1000 }}" data-expire="{{ settings.newsletter_popup_expire }}" id="newsletter-popup">
     <div class="popup-wrapper">
         <a href="javascript:void(0)" title="{{ 'general.common.close' | t }}" class="popup-close clearfix" data-close-newsletter-popup>
             {% render 'icon-close' %}
