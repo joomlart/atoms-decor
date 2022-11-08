@@ -2390,6 +2390,18 @@
             "link_label": {
               "label": "Link label"
             },
+            "link_style": {
+              "label": "Link style",
+              "options__1": {
+                "label": "Link"
+              },
+              "options__2": {
+                "label": "Outline"
+              },
+              "options__3": {
+                "label": "Solid"
+              }
+            },
             "link": {
               "label": "Link"
             },
