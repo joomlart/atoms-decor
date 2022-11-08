@@ -1,4 +1,8 @@
 /* Header 03 */
+.header-wrapper {
+    z-index: 3;
+}
+
 .header-03 {
     --inputs-radius:  28px;
     --inputs-border-opacity: 0.1;
