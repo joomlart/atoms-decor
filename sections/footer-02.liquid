@@ -57,25 +57,6 @@
                 <div class="footer-block__newsletter">
                   {% for block in section.blocks %}
                     {% case block.type %}
-                      {%- when 'logo_image' -%}
-                        {% if block.settings.show_logo %}
-                        <div class="footer-block__details-content footer-block-image {{ block.settings.alignment }}">
-                          {%- if block.settings.image != blank -%}
-                            {%- assign image_size_2x = block.settings.image_width | times: 2 | at_most: 5760 -%}
-                            <img
-                              srcset= "{{ block.settings.image | image_url: width: block.settings.image_width }}, {{ block.settings.image | image_url: width: image_size_2x }} 2x"
-                              src="{{ block.settings.image | image_url: width: 400 }}"
-                              alt="{{ block.settings.image.alt | escape }}"
-                              loading="lazy"
-                              width="{{ block.settings.image.width }}"
-                              height="{{ block.settings.image.height }}"
-                              style="max-width: min(100%, {{ block.settings.image_width }}px);"
-                            >
-                          {%- else -%}
-                            {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
-                          {%- endif -%}
-                        </div>
-                      {% endif %}
                       {%- when 'newsletter' -%}
                       <div class="newsletter__content">
                       {%- if block.settings.newsletter_heading != blank -%}
@@ -223,9 +204,9 @@
                     {% endcase %}
                   {% endfor %}
                 </div>
-                <div class="grid grid--2-col-tablet-down {{ footer_grid_class }} footer__content__right">
+                <div class="footer__content__right">
                 {%- for block in section.blocks -%}
-                  <div class="footer-block grid__item{% if block.type == 'link_list' %} footer-block--menu{% endif %}" {{ block.shopify_attributes }}>
+                  <div class="footer-block {% if block.type == 'link_list' %} footer-block--menu{% endif %}" {{ block.shopify_attributes }}>
                     {%- case block.type -%}  
                     {%- when 'link_list' -%}
                         {%- if block.settings.menu != blank -%}
@@ -347,6 +328,29 @@
             {%- endif -%}
           </div>
           <div class="footer__column footer__column--info">
+            {% for block in section.blocks %}
+              {% case block.type %}
+                {%- when 'logo_image' -%}
+                  {% if block.settings.show_logo %}
+                  <div class="footer-block__details-content footer-block-image {{ block.settings.alignment }}">
+                    {%- if block.settings.image != blank -%}
+                      {%- assign image_size_2x = block.settings.image_width | times: 2 | at_most: 5760 -%}
+                      <img
+                        srcset= "{{ block.settings.image | image_url: width: block.settings.image_width }}, {{ block.settings.image | image_url: width: image_size_2x }} 2x"
+                        src="{{ block.settings.image | image_url: width: 400 }}"
+                        alt="{{ block.settings.image.alt | escape }}"
+                        loading="lazy"
+                        width="{{ block.settings.image.width }}"
+                        height="{{ block.settings.image.height }}"
+                        style="max-width: min(100%, {{ block.settings.image_width }}px);"
+                      >
+                    {%- else -%}
+                      {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
+                    {%- endif -%}
+                  </div>
+                {% endif %}
+              {% endcase %}
+            {% endfor %}
             {%- if section.settings.payment_enable -%}
               <div class="footer__payment">
                 <span class="visually-hidden">{{ 'sections.footer.payment' | t }}</span>
