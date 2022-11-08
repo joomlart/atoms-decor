@@ -174,6 +174,64 @@
         "padding_bottom": 64
       }
     },
+    "f4c8b5a2-f7f2-4ee6-bbef-8dfda6e9ce6b": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15049366437961__f4c8b5a2-f7f2-4ee6-bbef-8dfda6e9ce6b-1667871212a8a931ed-0": {
+          "type": "column",
+          "settings": {
+            "image_position": "top",
+            "title": "#Vintage #Unique Fall\/Spring Furniture Collection",
+            "icon": "none",
+            "icon_position": "left",
+            "text": "<p>Suspendisse mollis vitae nibh ut tristique. Vivamus a mi scelerisque risus tempor fermentum at a tortor. Ut bibendum nisi tristique dolor tempus, sed cursus sapien malesuada. Cras ornare leo nec.<\/p>",
+            "link_label": "Shop the collection",
+            "link": "shopify:\/\/collections",
+            "padding_left": 32,
+            "padding_right": 32,
+            "image_spacing": 25
+          }
+        },
+        "template--15049366437961__f4c8b5a2-f7f2-4ee6-bbef-8dfda6e9ce6b-1667871212a8a931ed-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/feature-3.jpg",
+            "image_position": "top",
+            "title": "",
+            "icon": "none",
+            "icon_position": "left",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "padding_left": 32,
+            "padding_right": 32,
+            "image_spacing": 25
+          }
+        }
+      },
+      "block_order": [
+        "template--15049366437961__f4c8b5a2-f7f2-4ee6-bbef-8dfda6e9ce6b-1667871212a8a931ed-0",
+        "template--15049366437961__f4c8b5a2-f7f2-4ee6-bbef-8dfda6e9ce6b-1667871212a8a931ed-1"
+      ],
+      "settings": {
+        "title": "",
+        "sub-title": "",
+        "mod_class": "background-none",
+        "heading_size": "h4",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1661322877e178c8dc": {
       "type": "featured-blog",
       "settings": {
@@ -201,6 +259,7 @@
     "1663955354d4347362",
     "dc646dd5-5ce4-43d9-8821-2cdc64d8608f",
     "16639099959fcc61f9",
+    "f4c8b5a2-f7f2-4ee6-bbef-8dfda6e9ce6b",
     "1661322877e178c8dc"
   ]
 }
