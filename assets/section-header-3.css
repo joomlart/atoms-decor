@@ -17,7 +17,8 @@
     align-items: center;
 }
 
-.header-03 .header__heading {
+.header-03 .header__heading,
+.header-03 .header__heading-link {
     grid-area: heading;
     justify-self: center;
 }
