@@ -14,6 +14,7 @@
     display: grid;
     grid-template-areas: 'search heading icons';
     grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
 }
 
 .header-03 .header__heading {
