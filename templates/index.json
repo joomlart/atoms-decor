@@ -98,6 +98,7 @@
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": "",
+            "link_style": "link",
             "padding_left": 0,
             "padding_right": 92,
             "image_spacing": 64
@@ -114,6 +115,7 @@
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": "",
+            "link_style": "link",
             "padding_left": 0,
             "padding_right": 0,
             "image_spacing": 64
@@ -188,9 +190,10 @@
             "text": "<p>Suspendisse mollis vitae nibh ut tristique. Vivamus a mi scelerisque risus tempor fermentum at a tortor. Ut bibendum nisi tristique dolor tempus, sed cursus sapien malesuada. Cras ornare leo nec.<\/p>",
             "link_label": "Shop the collection",
             "link": "shopify:\/\/collections",
-            "padding_left": 32,
-            "padding_right": 32,
-            "image_spacing": 25
+            "link_style": "outline",
+            "padding_left": 0,
+            "padding_right": 92,
+            "image_spacing": 0
           }
         },
         "template--15049366437961__f4c8b5a2-f7f2-4ee6-bbef-8dfda6e9ce6b-1667871212a8a931ed-1": {
@@ -204,6 +207,7 @@
             "text": "",
             "link_label": "",
             "link": "",
+            "link_style": "link",
             "padding_left": 32,
             "padding_right": 32,
             "image_spacing": 25
