@@ -69,7 +69,7 @@
 
 .facets-container.recently-viewed-wrap .recently-viewed {
   margin-top: 0;
-  padding: 0;
+  padding: calc(var(--grid-desktop-vertical-spacing) / 2) 0 0;
   border-top:  1px solid rgba(var(--color-foreground), 0.1);
   list-style: none;
 }
