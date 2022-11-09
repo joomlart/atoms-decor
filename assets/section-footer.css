@@ -170,6 +170,10 @@
   transform: translateY(-50%);
 }
 
+.field__input:focus~.field__label {
+  bottom: -1rem;
+}
+
 .color-accent-1 .newsletter-form__field-wrapper .newsletter-form__button,
 .color-inverse .newsletter-form__field-wrapper .newsletter-form__button {
   background-color: rgba(255,255,255, 1);
