@@ -165,10 +165,9 @@
   padding-bottom: 0.5rem;
 }
 
-/* .footer .newsletter-form__field-wrapper .field__input:focus {
-  padding-top: 2rem;
-  padding-bottom: 0.5rem;
-} */
+.field__input:not(:placeholder-shown)~.field__label {
+  top: 10px;
+}
 
 .field__label {
   top: 50%;
@@ -177,7 +176,7 @@
 }
 
 .field__input:focus~.field__label {
-  top: 10px;
+  top: 0;
   transform: translateY(0);
 }
 
