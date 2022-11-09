@@ -176,7 +176,7 @@
   transition: all .3s ;
 }
 
-.field__input:focus~..field__label {
+.field__input:focus~.field__label {
   transform: translateY(-125%);
 }
 
