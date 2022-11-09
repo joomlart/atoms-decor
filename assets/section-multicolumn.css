@@ -250,8 +250,13 @@
 
 .multicolumn.background-none .multicolumn-card {
   border-radius: 0;
-  padding-right: 0 !important;
-  padding-left: 0 !important;
+}
+
+@media screen and (max-width: 989px) {
+  .multicolumn.background-none .multicolumn-card {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
 }
 
 .multicolumn-card__info .link {

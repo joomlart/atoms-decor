@@ -102,3 +102,20 @@
 .header-03 .menu-drawer .list-social__link {
     padding: 1.3rem 0.75rem;
 }
+
+#shopify-section-header-03.animate {
+  transition: transform .15s ease-out;
+}
+
+#shopify-section-header-03 {
+  z-index: 3;
+}
+
+#shopify-section-header-03.shopify-section-header-sticky {
+    position: sticky;
+    top: 0;
+}
+
+#shopify-section-header-03.shopify-section-header-sticky .header__heading-wrap {
+    display: none;
+}
