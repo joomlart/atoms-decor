@@ -524,7 +524,7 @@
                                         href="{{ childlink.url }}"
                                         class="megamenu__colection-image"
                                         aria-label="{{ collections[childlink.object.handle].title }}"
-                                        style="background-image: url({{ collections[childlink.object.handle].image | img_url: '400x' }})"></a>
+                                        style="background-image: url({{ collections[childlink.object.handle].image | image_url: '400x' }})"></a>
                                     {%- endif -%}
                                   {%- endif -%}
                                   <a href="{{ childlink.url }}" class="mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
