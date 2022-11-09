@@ -165,21 +165,20 @@
   padding-bottom: 0.5rem;
 }
 
+.field__label {
+  transition: all .3s ;
+}
+
 .field__input:not(:placeholder-shown) + .field__label {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.field__input + .field__label {
   top: 0;
   transform: translateY(10px);
 }
 
-.field__label {
-  top: 50%;
-  transform: translateY(-50%);
-  transition: all .3s ;
-}
-
-/* .field__input:focus~.field__label {
-  top: 0;
-
-} */
 
 .color-accent-1 .newsletter-form__field-wrapper .newsletter-form__button,
 .color-inverse .newsletter-form__field-wrapper .newsletter-form__button {
