@@ -177,6 +177,7 @@
 }
 
 .field__input:focus~.field__label {
+  top: 0;
   transform: translateY(3px);
 }
 
