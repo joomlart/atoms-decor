@@ -170,7 +170,7 @@
   transform: translateY(-50%);
 }
 
-.field__input:focus label.field__label {
+.field__input:focus~.field__label {
   transform: translateY(-10%);
 }
 
