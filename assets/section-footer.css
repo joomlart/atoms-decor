@@ -170,13 +170,13 @@
   padding-bottom: 0.5rem;
 }
 
-.footer .newsletter-form__field-wrapper .field__label {
+.move {
   top: 50%;
   transform: translateY(-50%);
   transition: all .3s ;
 }
 
-.field__input:focus~.field__label {
+.field__input:focus~.move {
   transform: translateY(-125%);
 }
 
