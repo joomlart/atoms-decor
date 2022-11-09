@@ -165,8 +165,8 @@
   padding-bottom: 0.5rem;
 }
 
-.field__input:not(:placeholder-shown)~.field__label {
-  top: 18px;
+.field__input:not(:placeholder-shown) + .field__label {
+  top: 0;
   transform: translateY(10px);
 }
 
