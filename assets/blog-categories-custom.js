@@ -8,10 +8,10 @@ arr_Cat.map((item) => {
 }
 );
 
-function addMove() {
-  let move =  document.querySelector(".footer .field__input");
-  move.classList.add('move');;
-}
+// function addMove() {
+//   let move =  document.querySelector(".footer .field__input");
+//   move.classList.add('move');;
+// }
 
 
 // if (move !== null && move.value === "")
