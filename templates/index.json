@@ -8,7 +8,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/slide-1.jpg",
             "heading": "Creating your space. Detail by detail.",
-            "heading_size": "h3",
+            "heading_size": "h1",
             "subheading": "Cursus elit, iaculis platea integer nisl sapien egestas. Itae donec ornare iaculis mauris nec ultrices ullamcorper tempus dignissim, sed at maecenas elit odio blandit sem.",
             "button_label": "Shop all new arrivals",
             "link": "shopify:\/\/collections\/decor",
@@ -100,7 +100,7 @@
             "link": "",
             "link_style": "link",
             "padding_left": 0,
-            "padding_right": 92,
+            "padding_right": 96,
             "image_spacing": 64
           }
         },
@@ -151,7 +151,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Collection 2022 Highlights",
-        "heading_size": "h3",
+        "heading_size": "h2",
         "title_style": "02",
         "description_style": "subtitle",
         "description": "<p>Cursus elit, iaculis platea integer nisl sapien egestas. Itae donec ornare iaculis mauris nec ultrices ullamcorper tempus dignissim. Purus odio blandit sem.<\/p>",
