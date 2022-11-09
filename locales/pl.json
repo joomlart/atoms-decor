@@ -1,5 +1,10 @@
 {
   "general": {
+    "common": {
+      "close": "Close",
+      "menu": "Menu",
+      "categories": "Categories"
+    },
     "password_page": {
       "login_form_heading": "Wejdź do sklepu, wpisując hasło:",
       "login_password_button": "Wejdź, wpisując hasło",

@@ -1,5 +1,10 @@
 {
   "general": {
+    "common": {
+      "close": "Close",
+      "menu": "Menu",
+      "categories": "Categories"
+    },
     "password_page": {
       "login_form_heading": "使用密码进入商店：",
       "login_password_button": "使用密码进入",

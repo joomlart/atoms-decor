@@ -1,5 +1,10 @@
 {
   "general": {
+    "common": {
+      "close": "Close",
+      "menu": "Menu",
+      "categories": "Categories"
+    },
     "password_page": {
       "login_form_heading": "Ange lösenord för att komma i butiken:",
       "login_password_button": "Ange lösenord för att komma in",

@@ -511,7 +511,7 @@
                             {% if link.levels > 1 %}
                               {% assign i = 0 %}
                               {%- for childlink in link.links -%}
-                                {% assign i = i | plus:1 %}
+                                {% assign i = i | plus: 1 %}
                               {%- endfor -%}
                             {% endif %}
 
@@ -523,7 +523,7 @@
                                       <a
                                         href="{{ childlink.url }}"
                                         class="megamenu__colection-image"
-                                        aria-label="{{collections[childlink.object.handle].title}}"
+                                        aria-label="{{ collections[childlink.object.handle].title }}"
                                         style="background-image: url({{ collections[childlink.object.handle].image | img_url: '400x' }})"></a>
                                     {%- endif -%}
                                   {%- endif -%}

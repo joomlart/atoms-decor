@@ -703,8 +703,18 @@ noscript .localization-selector.link {
   justify-content: center;
 }
 
+@media screen and (max-width: 550px) {
+  .footer-02 .footer-block--newsletter .newsletter__content {
+    flex-direction: column;
+  }
+}
+
 .footer-02 .footer-block--newsletter .newsletter-form {
   margin: auto;
+}
+
+.footer .newsletter-form__button {
+  width: 5.6rem;
 }
 
 .footer-02 .footer-block--main .footer__content__left .footer__list-social {

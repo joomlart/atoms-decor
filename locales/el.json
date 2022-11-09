@@ -1,5 +1,10 @@
 {
   "general": {
+    "common": {
+      "close": "Close",
+      "menu": "Menu",
+      "categories": "Categories"
+    },
     "password_page": {
       "login_form_heading": "Είσοδος στο κατάστημα με τη χρήση κωδικού πρόσβασης:",
       "login_password_button": "Είσοδος με τη χρήση κωδικού πρόσβασης",
