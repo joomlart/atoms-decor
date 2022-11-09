@@ -204,8 +204,14 @@
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "Legal",
               "menu": "footer"
+            }
+          },
+          "1d548923-6d7b-4763-976b-1a519ede76c2": {
+            "type": "social",
+            "settings": {
+              "show_social": true
             }
           }
         },
@@ -216,7 +222,8 @@
           "b8d6d6e5-f903-4ad5-8de6-772b2d3e3d84",
           "footer-1",
           "d2d2e96b-3357-4d10-b4d2-a65c9178bc68",
-          "footer-0"
+          "footer-0",
+          "1d548923-6d7b-4763-976b-1a519ede76c2"
         ],
         "settings": {
           "color_scheme": "accent-1",
