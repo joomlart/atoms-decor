@@ -167,7 +167,7 @@
 
 .footer .newsletter-form__field-wrapper .field__input:focus {
   padding-top: 2rem;
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
 }
 
 .footer .newsletter-form__field-wrapper .field__label {
