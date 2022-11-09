@@ -358,21 +358,21 @@
           "footer-03-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
-              "menu": "footer"
+              "heading": "Main Page",
+              "menu": "main-menu"
             }
           },
           "99b4f4f6-a74b-4a33-933b-c3f03a2172bc": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
-              "menu": "footer"
+              "heading": "Others Pages",
+              "menu": "others-page"
             }
           },
           "8b21a90f-5211-41ac-a2fc-0a1ff3fd96c4": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "Legal",
               "menu": "footer"
             }
           },
