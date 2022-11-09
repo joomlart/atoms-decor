@@ -299,13 +299,6 @@
               "menu": "surpport"
             }
           },
-          "c929164f-a119-45f6-b494-35b8acacb8b0": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Social",
-              "menu": "social"
-            }
-          },
           "8f6ec5ca-267e-4429-ac3d-c23358b328da": {
             "type": "logo_image",
             "settings": {
@@ -313,6 +306,13 @@
               "image": "shopify:\/\/shop_images\/atoms-light_79ebb958-8908-40f3-8ea2-7d4c623a3bbc.png",
               "image_width": 110,
               "alignment": "center"
+            }
+          },
+          "c929164f-a119-45f6-b494-35b8acacb8b0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Social",
+              "menu": "social"
             }
           }
         },
@@ -322,8 +322,8 @@
           "footer-6",
           "0ab51a22-bfd0-4d40-8344-bacf47ebe682",
           "4bb20c11-7066-4696-b580-2de3fbf9fa0c",
-          "c929164f-a119-45f6-b494-35b8acacb8b0",
-          "8f6ec5ca-267e-4429-ac3d-c23358b328da"
+          "8f6ec5ca-267e-4429-ac3d-c23358b328da",
+          "c929164f-a119-45f6-b494-35b8acacb8b0"
         ],
         "settings": {
           "color_scheme": "accent-1",
