@@ -102,6 +102,9 @@
     .slider-buttons {
     left: 0;
   }
+  .gallery_full_width .product--thumbnail_slider .product__media-wrapper .slider-buttons.hide-arrow {
+    display: none !important;
+  }
   .gallery_full_width .thumbnail-slider .thumbnail-list.slider--tablet-up {
     justify-content: center;
   }

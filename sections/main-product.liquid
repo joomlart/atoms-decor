@@ -98,7 +98,7 @@
               {%- endunless -%}
             {%- endfor -%}
           </ul>
-          <div class="slider-buttons no-js-hidden quick-add-hidden{% if media_count < 2 or section.settings.mobile_thumbnails == 'show' %} small-hide{% endif %} {% if section.settings.gallery_layout == 'thumbnail_slider' %} slider-buttons--tablet-up{% endif %}">
+          <div class="slider-buttons no-js-hidden quick-add-hidden{% if media_count < 2 or section.settings.mobile_thumbnails == 'show' %} small-hide{% endif %} {% if section.settings.gallery_layout == 'thumbnail_slider' %} slider-buttons--tablet-up{% endif %}{% if media_count == 1%} hide-arrow {% endif %}">
             <button
               type="button"
               class="slider-button slider-button--prev"
