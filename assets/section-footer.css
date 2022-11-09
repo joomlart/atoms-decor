@@ -166,8 +166,8 @@
 }
 
 .field__input:not(:placeholder-shown)~.field__label {
-  top: 10px;
-    transform: translateY(10px);
+  top: 18px;
+  transform: translateY(10px);
 }
 
 .field__label {
