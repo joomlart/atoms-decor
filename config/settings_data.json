@@ -280,7 +280,7 @@
           "footer-6": {
             "type": "link_list",
             "settings": {
-              "heading": "Support",
+              "heading": "Legal",
               "menu": "footer"
             }
           },
@@ -295,14 +295,14 @@
           "4bb20c11-7066-4696-b580-2de3fbf9fa0c": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
-              "menu": "footer"
+              "heading": "Support",
+              "menu": "surpport"
             }
           },
           "c929164f-a119-45f6-b494-35b8acacb8b0": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "Social",
               "menu": "social"
             }
           },
