@@ -161,14 +161,14 @@
 .footer .newsletter-form__field-wrapper .field__input {
   height: 5.6rem;
   line-height: 2.4rem;
-  padding-top: 1.6rem;
-  padding-bottom: 1.6rem;
-}
-
-.footer .newsletter-form__field-wrapper .field__input:focus {
   padding-top: 2rem;
   padding-bottom: 0.5rem;
 }
+
+/* .footer .newsletter-form__field-wrapper .field__input:focus {
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+} */
 
 .field__label {
   top: 50%;
