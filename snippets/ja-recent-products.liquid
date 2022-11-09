@@ -110,11 +110,8 @@
                    </div>
                  </div>
                </div>
-             </div>
-             </div>
-             </div>
-             </div>
-          </li>
+           </div>
+        </li>
        `);
         });
         const newProductData = `${recentlyViewedHtml.join("")}`;
@@ -127,7 +124,7 @@
     const localViewed = localStorage.recentlyViewedProduct;
     
     if (localViewed === undefined || localViewed.length === 0){
-      document.getElementById('recently-viewed').style.display = 'none';
+      document.querySelector('div.recently-viewed-inner').style.display = 'none';
     }
   });
 
