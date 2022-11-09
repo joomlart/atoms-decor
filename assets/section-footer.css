@@ -173,6 +173,7 @@
 .footer .newsletter-form__field-wrapper .field__label {
   top: 50%;
   transform: translateY(-50%);
+  transition: all .3s ;
 }
 
 .field__input:focus~.field__label {
