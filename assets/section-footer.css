@@ -177,8 +177,8 @@
 }
 
 .field__input:focus~.field__label {
-  top: 0;
-  transform: translateY(10px);
+  top: 10px;
+  transform: translateY(0);
 }
 
 .color-accent-1 .newsletter-form__field-wrapper .newsletter-form__button,
