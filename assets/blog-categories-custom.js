@@ -10,7 +10,7 @@ arr_Cat.map((item) => {
 
 function addMove() {
   let move =  document.querySelectorAll(".footer .newsletter-form__field-wrapper .field__input");
-  move.className += "move";
+  move.classList.add('move');;
 }
 
 
