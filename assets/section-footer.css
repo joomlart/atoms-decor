@@ -165,13 +165,18 @@
   padding-bottom: 1.6rem;
 }
 
+.footer .newsletter-form__field-wrapper .field__input:focus {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
 .footer .newsletter-form__field-wrapper .field__label {
   top: 50%;
   transform: translateY(-50%);
 }
 
 .field__input:focus~.field__label {
-  transform: translateY(-10%);
+  transform: translateY(-125%);
 }
 
 .color-accent-1 .newsletter-form__field-wrapper .newsletter-form__button,
