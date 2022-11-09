@@ -288,8 +288,8 @@
             "type": "newsletter",
             "settings": {
               "newsletter_enable": true,
-              "newsletter_heading": "Subscribe to our emails",
-              "newsletter_intro": "Subscribe to the Joomlart newsletter to receive timely updates from your favorite products."
+              "newsletter_heading": "Sign Up to Receive 15% Off Your First Order",
+              "newsletter_intro": ""
             }
           },
           "4bb20c11-7066-4696-b580-2de3fbf9fa0c": {
