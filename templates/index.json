@@ -193,7 +193,7 @@
             "link": "shopify:\/\/collections",
             "link_style": "outline",
             "padding_left": 0,
-            "padding_right": 92,
+            "padding_right": 96,
             "image_spacing": 0
           }
         },
@@ -244,7 +244,7 @@
       "type": "featured-blog",
       "settings": {
         "heading": "From our Blog",
-        "heading_size": "h3",
+        "heading_size": "h2",
         "title_style": "02",
         "description_style": "subtitle",
         "description": "<p>Cursus elit, iaculis platea integer nisl sapien egestas. Itae donec ornare iaculis mauris nec ultrices ullamcorper tempus dignissim. Purus odio blandit sem.<\/p>",
