@@ -1,13 +1,44 @@
-.email-signup-banner {
+#password-page-has-image .email-signup-banner {
   color: rgb(var(--color-foreground));
 }
+
+@media screen and (min-width: 750px) {
+  #password-page-has-image .email-signup-banner {
+    height: 100vh;
+  }
+}
+
+#password-page-has-image .email-signup-banner .banner__content, #password-page-has-image .email-signup-banner .banner__media {
+  width: 50%;
+}
+
+@media screen and (max-width: 990px) {
+  #password-page-has-image .email-signup-banner .banner__content, #password-page-has-image .email-signup-banner .banner__media {
+    width: 100%;
+  }
+}
+
+#password-page-has-image .email-signup-banner .banner__content {
+  margin: 0;
+}
+
+#password-page-has-image .email-signup-banner .banner__media {
+  left: auto;
+  right: 0;
+}
+
+@media screen and (min-width: 990px) {
+  #password-page-has-image .email-signup-banner::after{
+    right: 0;
+    width: 50%;
+  }
+}
+
+
+
 .email-signup-banner .newsletter-form,
 .email-signup-banner .newsletter-form__field-wrapper {
   display: inline-block;
-}
-
-.email-signup-banner:not(.banner--desktop-transparent) .email-signup-banner__box {
-  padding: 3rem;
 }
 
 @media only screen and (min-width: 750px) {
@@ -17,18 +48,19 @@
 }
 
 .email-signup-banner__box {
-  max-width: 55rem;
+  max-width: 70rem;
 }
 
 .email-signup-banner__box .email-signup-banner__heading {
-  margin-bottom: .8rem;
-  font-weight: 700;
+  margin-bottom: 1.6rem;
 }
 
 .email-signup-banner__box > * + .newsletter__subheading {
   color: rgb(var(--color-foreground));
-  margin-top: .8rem;
+  margin-top: 2rem;
   font-size: calc(var(--font-body-scale) * 1.8rem);
+  line-height: calc(1 + 0.6/var(--font-body-scale));
+  letter-spacing: 0;
 }
 
 .email-signup-banner__box .newsletter__subheading p {

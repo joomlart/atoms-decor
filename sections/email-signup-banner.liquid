@@ -5,7 +5,14 @@
 {{ 'component-rte.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
-  #Banner-{{ section.id }}::after {
+
+  #Banner-{{ section.id }} {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  #Banner-{{ section.id }}:after {
     opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
   }
 
@@ -28,7 +35,6 @@
 {%- endstyle -%}
 
 <div id="Banner-{{ section.id }}" class="email-signup-banner banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.image_height == 'adapt-image' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}">
-  {%- if section.settings.show_background_image -%}
     <div class="banner__media{% if section.settings.image != blank %} media{% endif %}">
       {%- if section.settings.image != blank -%}
         <img
@@ -53,7 +59,6 @@
         {%- render 'email-signup-banner-background-mobile' -%}
       {%- endif -%}
     </div>
-  {%- endif -%}
   <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width">
     <div class="email-signup-banner__box banner__box newsletter newsletter__wrapper isolate{% if section.settings.show_background_image == false %} email-signup-banner__box--no-image{% endif %} content-container color-{{ section.settings.color_scheme }} gradient content-container--full-width-mobile">
       {%- for block in section.blocks -%}
@@ -134,81 +139,6 @@
       "unit": "%",
       "label": "t:sections.email-signup-banner.settings.image_overlay_opacity.label",
       "default": 0
-    },
-    {
-      "type": "checkbox",
-      "id": "show_background_image",
-      "label": "t:sections.email-signup-banner.settings.show_background_image.label",
-      "default": true
-    },
-    {
-      "type": "select",
-      "id": "image_height",
-      "options": [
-        {
-          "value": "adapt-image",
-          "label": "t:sections.email-signup-banner.settings.image_height.options__1.label"
-        },
-        {
-          "value": "small",
-          "label": "t:sections.email-signup-banner.settings.image_height.options__2.label"
-        },
-        {
-          "value": "medium",
-          "label": "t:sections.email-signup-banner.settings.image_height.options__3.label"
-        },
-        {
-          "value": "large",
-          "label": "t:sections.email-signup-banner.settings.image_height.options__4.label"
-        }
-      ],
-      "default": "medium",
-      "label": "t:sections.email-signup-banner.settings.image_height.label",
-      "info": "t:sections.email-signup-banner.settings.image_height.info"
-    },
-    {
-      "type": "select",
-      "id": "desktop_content_position",
-      "options": [
-        {
-          "value": "top-left",
-          "label": "t:sections.email-signup-banner.settings.desktop_content_position.options__1.label"
-        },
-        {
-          "value": "top-center",
-          "label": "t:sections.email-signup-banner.settings.desktop_content_position.options__2.label"
-        },
-        {
-          "value": "top-right",
-          "label": "t:sections.email-signup-banner.settings.desktop_content_position.options__3.label"
-        },
-        {
-          "value": "middle-left",
-          "label": "t:sections.email-signup-banner.settings.desktop_content_position.options__4.label"
-        },
-        {
-          "value": "middle-center",
-          "label": "t:sections.email-signup-banner.settings.desktop_content_position.options__5.label"
-        },
-        {
-          "value": "middle-right",
-          "label": "t:sections.email-signup-banner.settings.desktop_content_position.options__6.label"
-        },
-        {
-          "value": "bottom-left",
-          "label": "t:sections.email-signup-banner.settings.desktop_content_position.options__7.label"
-        },
-        {
-          "value": "bottom-center",
-          "label": "t:sections.email-signup-banner.settings.desktop_content_position.options__8.label"
-        },
-        {
-          "value": "bottom-right",
-          "label": "t:sections.email-signup-banner.settings.desktop_content_position.options__9.label"
-        }
-      ],
-      "default": "middle-center",
-      "label": "t:sections.email-signup-banner.settings.desktop_content_position.label"
     },
     {
       "type": "checkbox",
