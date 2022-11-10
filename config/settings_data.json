@@ -155,12 +155,6 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "eaf41603-afa0-4f88-bc6b-43bea2acc335": {
-            "type": "breacrumbs",
-            "settings": {
-              "alignment_breadcrumb": "left"
-            }
-          },
           "73cee245-4184-4443-8838-81aee70ec48e": {
             "type": "newsletter",
             "settings": {
@@ -222,7 +216,6 @@
           }
         },
         "block_order": [
-          "eaf41603-afa0-4f88-bc6b-43bea2acc335",
           "73cee245-4184-4443-8838-81aee70ec48e",
           "2973bd8e-f167-403a-a4b0-35a394865560",
           "68870e20-c4f3-4f7a-acc3-b65972c531af",
