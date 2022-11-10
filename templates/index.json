@@ -274,6 +274,9 @@
       "settings": {
         "title": "Recent Product",
         "heading_size": "h1",
+        "title_style": "02",
+        "description": "<p>Customers love new products, and now you can make sure that they always see the new arrivals in your store first.<\/p>",
+        "description_style": "body",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
