@@ -61,6 +61,9 @@
                   </div>
                 {% endcase %}
               {% endfor %}
+              <div class="footer-breadcrumb {{ block.settings.alignment_breadcrumb }}">
+                {% render 'breadcrumb' %}
+              </div>
               <div class="footer-block footer-block--newsletter">
                 <div class="footer-block__newsletter">
                   {% for block in section.blocks %}
