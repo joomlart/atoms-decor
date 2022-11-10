@@ -30,16 +30,42 @@
 
 
 </style>
+{%- liquid
+  assign image = section.settings.image_404
+-%}
 
 <div class="template-404 page-width page-margin center">
+  {% if image != blank %}
+    <img
+    src="{{ image | image_url: width: 400 }}"
+    class="image-404"
+    loading="lazy"
+    width="auto"
+    height="auto"
+    >
+  {% else %}
   <p class="code-error">
     {{ 'templates.404.subtext' | t }}
   </p>
+  {% endif %}
   <h1 class="code-message">
-    {{ 'templates.404.title' | t }}
+  {{ 'templates.404.title' | t }}
   </h1>
-
   <a href="{{ routes.all_products_collection_url }}" class="button redirect-home">
     {{ 'general.continue_shopping' | t }}
   </a>
 </div>
+{% schema %}
+{
+  "name": "t:sections.main-404.name",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image_404",
+      "label": "t:sections.main-404.settings.pick__image.label"
+    }
+  ]
+}
+{% endschema %}
