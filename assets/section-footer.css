@@ -762,4 +762,9 @@ noscript .localization-selector.link {
   color: #fff;
 }
 
+.footer-breadcrumb .breadcrumbs {
+  margin: 0;
+  padding: 3.2rem;
+}
+
 
