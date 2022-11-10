@@ -754,5 +754,8 @@ noscript .localization-selector.link {
   }
 }
 
+.footer-breadcrumbs + div {
+  padding: 0;
+}
 
 
