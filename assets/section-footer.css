@@ -776,6 +776,7 @@ noscript .localization-selector.link {
   text-decoration: underline;
 }
 
+
 /* check for flexbox gap in older Safari versions */
 @supports not (inset: 10px) {
   @media screen and (max-width: 749px) {
