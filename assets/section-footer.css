@@ -755,7 +755,8 @@ noscript .localization-selector.link {
   padding: 0;
 }
 
-.footer-breadcrumb .page-width .breadcrumbs__link {
+.footer-breadcrumb .page-width .breadcrumbs__link, 
+.footer-breadcrumb .page-width a {
   color: #fff;
 }
 
