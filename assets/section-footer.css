@@ -86,8 +86,7 @@
 
 @media screen and (min-width: 990px) {
   .footer__column--info {
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0 0 6.4rem;
     align-items: flex-start;
     flex-direction: row-reverse;
   }
