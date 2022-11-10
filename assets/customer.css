@@ -20,7 +20,7 @@
 .customer:not(.account):not(.order):not(.addresses) {
   margin: 0 auto var(--grid-desktop-vertical-spacing);
   max-width: 40rem;
-  padding: 0 1.5rem;
+  padding: 6.4rem 1.5rem;
   text-align: center;
 }
 
