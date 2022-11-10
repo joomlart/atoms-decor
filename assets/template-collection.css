@@ -287,14 +287,14 @@
   margin-bottom: 1.6rem;
 }
 
-.title-wrapper-02 .collection__description  {
+.title-wrapper-02 .recently__description  {
   width: 50%;
   margin-right: auto;
   margin-left: auto;
 }
 
 @media screen and (max-width: 749px) {
-  .title-wrapper-02 .collection__description {
+  .title-wrapper-02 .recently__description {
     width: 90%;
   }
 }

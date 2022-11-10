@@ -15,11 +15,15 @@
 {%- endstyle -%}
 <div id="recently-viewed" class="color-{{ section.settings.color_scheme }} isolate gradient">
   <div class="recently-viewed-wrap section-{{ section.id }}-padding{% if section.settings.full_width %} recently--full-width{% endif %}">
-      <div class="product-recommendations__heading title-wrapper title-wrapper--no-top-margin page-width">
+      <div class="product-recommendations__heading title-wrapper title-wrapper--no-top-margin title-wrapper-{{ section.settings.title_style }} page-width">
         <div class="inner">
           {%- if section.settings.title != blank -%}
             <h2 class="title {{ section.settings.heading_size }}">{{ section.settings.title | escape }}</h2>
           {%- endif -%}
+
+          {%- if section.settings.description != blank -%}
+          <div class="recently__description {{ section.settings.description_style }}">{{ section.settings.description }}</div>
+        {%- endif -%}
         </div>
       </div>
       <slider-component class="slider-mobile-gutter{% if section.settings.full_width %} slider-component-full-width{% endif %} page-width page-width-desktop page-width-tablet">
