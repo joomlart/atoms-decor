@@ -53,9 +53,14 @@
               endif
             -%}
             <div class="footer__blocks-wrapper">
-              <div class="footer-breadcrumb {{ section.blocks.breadcrumb.settings.alignment_breadcrumb  }}">
-                {% render 'breadcrumb' %}
-              </div>
+              {% for block in section.blocks %}
+                {% case block.type %}
+                {%- when 'breadcrumb' -%}
+                  <div class="footer-breadcrumb {{ block.settings.alignment_breadcrumb }}">
+                    {% render 'breadcrumb' %}
+                  </div>
+                {% endcase %}
+              {% endfor %}
               <div class="footer-block--main">
                 <div class="footer__content__left"> 
                   {% for block in section.blocks %}
