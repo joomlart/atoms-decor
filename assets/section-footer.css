@@ -754,7 +754,7 @@ noscript .localization-selector.link {
   }
 }
 
-.footer-breadcrumbs + div {
+.footer-breadcrumbs  .page-width {
   padding: 0;
 }
 
