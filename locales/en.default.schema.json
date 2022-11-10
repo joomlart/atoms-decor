@@ -669,6 +669,14 @@
       "settings": {
         "title": {
           "label": "Breadcrumb"
+        },
+        "alignment": {
+          "right": {
+            "label": "Left"
+          },
+          "center": {
+            "label": "Center"
+          }
         }
       },
       "presets": {
