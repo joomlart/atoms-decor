@@ -3195,6 +3195,9 @@
                 "label": "Bottom right"
               }
             },
+            "box_width": {
+              "label": "Box width on Desktop"
+            },
             "show_text_box": {
               "label": "Show container on desktop"
             },
