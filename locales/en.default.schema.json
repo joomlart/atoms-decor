@@ -671,6 +671,9 @@
           "label": "Breadcrumb"
         },
         "alignment": {
+          "name": {
+            "label": "Aligment Breadcrumb"
+          },
           "right": {
             "label": "Left"
           },
