@@ -11,8 +11,8 @@
       "settings": {
         "title": "Google Map",
         "heading_size": "h1",
-        "address": "Address",
-        "zoom": 4,
+        "address": "New York",
+        "zoom": 12,
         "color_scheme": "background-1",
         "width": "100%",
         "height": "600px",

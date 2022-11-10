@@ -3576,6 +3576,12 @@
         },
         "full_width": {
           "label": "Make section full width"
+        },
+        "width": {
+          "label": "Width"
+        },
+        "height": {
+          "label": "Height"
         }
       },
       "presets": {
