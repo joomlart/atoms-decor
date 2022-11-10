@@ -331,7 +331,7 @@
           "dc583b2f-778a-4ff4-b937-d06ab7eaf604": {
             "type": "breadcrumb",
             "settings": {
-              "alignment_breadcrumb": "left"
+              "alignment_breadcrumb": "center"
             }
           }
         },
