@@ -1339,5 +1339,22 @@
         "info": "t:settings_schema.cart.settings.cart_drawer.collection.info"
       }
     ]
+  },
+  {
+    "name": "Password Page",
+    "settings": [
+      {
+        "type": "color",
+        "id": "background_color",
+        "label": "Background color",
+        "default": "#fff"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_background_image",
+        "label": "Show Background Image",
+        "default": true
+      }
+    ]
   }
 ]
