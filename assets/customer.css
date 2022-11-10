@@ -475,12 +475,12 @@
 :is(.account, .order) {
   margin: 0 auto 9rem;
   max-width: var(--page-width);
-  padding: 0 2rem;
+  padding: 3.2rem 2rem;
 }
 
 @media screen and (min-width: 750px) {
   :is(.account, .order) {
-    padding: 0 5rem;
+    padding: 6.4rem 5rem;
   }
 }
 
