@@ -18,7 +18,11 @@
 {%- endstyle -%}
 
 {%- paginate blog.articles by 6 -%}
-  {%- render 'breadcrumb'- %}
+  {% if section.settings.show_breadcrumb %} 
+    <div class="blog-breadcrumb">
+      {% render 'breadcrumb' %}
+    </div>
+  {% endif %}
   <div class="main-blog page-width section-{{ section.id }}-padding">
     <h1 class="page--title h1">{{ blog.title | escape }}</h1>
 
@@ -99,6 +103,12 @@
     {
       "type": "header",
       "content": "t:sections.main-blog.settings.header.content"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_breadcrumb",
+      "default": false,
+      "label": "t:sections.breadcrumb.settings.show.label"
     },
     {
       "type": "select",
