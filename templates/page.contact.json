@@ -6,6 +6,20 @@
       "settings": {
       }
     },
+    "cd4880b2-bfb4-4aae-959f-a06cba5e6b15": {
+      "type": "ja-map",
+      "settings": {
+        "title": "Google Map",
+        "heading_size": "h1",
+        "address": "Address",
+        "zoom": 4,
+        "color_scheme": "background-1",
+        "width": "100%",
+        "height": "600px",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -42,6 +56,7 @@
   },
   "order": [
     "1663821762badf5565",
+    "cd4880b2-bfb4-4aae-959f-a06cba5e6b15",
     "main",
     "form"
   ]
