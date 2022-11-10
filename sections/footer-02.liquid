@@ -19,7 +19,7 @@
     margin-top: {{ section.settings.margin_top | times: 0.75 | round: 0 }}px;
   }
 
-  .section-{{ section.id }}-padding .footer-block--newsletter{
+  .section-{{ section.id }}-padding .footer-block--main {
     padding-top: {{ section.settings.padding_top | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | round: 0 }}px;
   }
@@ -29,7 +29,7 @@
       margin-top: {{ section.settings.margin_top }}px;
     }
 
-    .section-{{ section.id }}-padding .footer-block--newsletter{
+    .section-{{ section.id }}-padding .footer-block--main {
       padding-top: {{ section.settings.padding_top | times: 2 }}px;
       padding-bottom: {{ section.settings.padding_bottom | times: 2 }}px;
     }
@@ -439,6 +439,32 @@
 {
   "name": "t:sections.footer.name",
   "blocks": [
+    {
+      "type": "breadcrumb",
+      "name": "t:sections.breadcrumb.name",
+      "settings": [
+        {
+          "type": "select",
+          "id": "alignment_breadcrumb",
+          "label": "t:sections.breadcrumb.settings.alignment.name.label",
+          "options": [
+            {
+              "value": "left",
+              "label": "t:sections.breadcrumb.settings.alignment.left.label"
+            },
+            {
+              "value": "center",
+              "label": "t:sections.breadcrumb.settings.alignment.center.label"
+            },
+            {
+              "value": "right",
+              "label": "t:sections.breadcrumb.settings.alignment.right.label"
+            }
+          ],
+          "default": "left"
+        }
+      ]
+    },
     {
       "type": "link_list",
       "name": "t:sections.footer.blocks.link_list.name",
