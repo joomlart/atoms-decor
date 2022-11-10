@@ -187,12 +187,7 @@
 
 /* Footer Block Main */
 
-.footer-block--main {
-  padding: 3.2rem 0;
-}
-
 .footer-01 .footer-block--main {
-  padding: 0 0 6.4rem;
   flex-direction: row-reverse;
 }
 
