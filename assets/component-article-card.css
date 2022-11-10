@@ -48,8 +48,6 @@
 
 /* Title Blog */
 .article-card .card__heading {
-  font-size: calc(var(--font-heading-scale) * 2rem);;
-  line-height: calc(1 + .25/var(--font-heading-scale));
   margin-bottom: 1.6rem;
   letter-spacing: 0;
 }
