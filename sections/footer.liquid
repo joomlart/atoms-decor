@@ -329,6 +329,32 @@
   "name": "t:sections.footer.name",
   "blocks": [
     {
+      "type": "breacrumbs",
+      "name": "t:sections.breadcrumb.name",
+      "settings": [
+        {
+          "type": "select",
+          "id": "alignment_breadcrumb",
+          "label": "t:sections.breadcrumb.settings.alignment.name.label",
+          "options": [
+            {
+              "value": "left",
+              "label": "t:sections.breadcrumb.settings.alignment.left.label"
+            },
+            {
+              "value": "center",
+              "label": "t:sections.breadcrumb.settings.alignment.center.label"
+            },
+            {
+              "value": "right",
+              "label": "t:sections.breadcrumb.settings.alignment.right.label"
+            }
+          ],
+          "default": "left"
+        }
+      ]
+    },
+    {
       "type": "link_list",
       "name": "t:sections.footer.blocks.link_list.name",
       "settings": [
