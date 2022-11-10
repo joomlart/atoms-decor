@@ -670,6 +670,9 @@
         "title": {
           "label": "Breadcrumb"
         },
+        "show": {
+          "label": "Show \/ Hide Breadcrumb"
+        },
         "alignment": {
           "name": {
             "label": "Aligment Breadcrumb"
