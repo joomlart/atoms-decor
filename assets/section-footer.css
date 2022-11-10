@@ -48,9 +48,7 @@
 @media screen and (max-width: 749px) {
   .footer__content-bottom {
     flex-wrap: wrap;
-    padding-top: 0;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0 0 6.4rem;
     row-gap: 1.5rem;
   }
 
@@ -761,5 +759,12 @@ noscript .localization-selector.link {
 .footer-breadcrumb .page-width .breadcrumbs__link {
   color: #fff;
 }
+
+.footer-breadcrumb .breadcrumbs {
+  margin: 0;
+  padding: 3.2rem 0;
+}
+
+
 
 
