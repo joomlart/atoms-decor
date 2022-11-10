@@ -450,6 +450,14 @@
         "label": "Text Color"
       }
     },
+    "main-404": {
+      "name": "Main 404",
+      "settings": {
+        "pick__image": {
+          "label": "Load one image 404"
+        }
+      }
+    },
     "announcement-bar": {
       "name": "Announcement bar",
       "blocks": {
