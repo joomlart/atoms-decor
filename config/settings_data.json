@@ -238,8 +238,8 @@
           "enable_language_selector": true,
           "payment_enable": true,
           "margin_top": 0,
-          "padding_top": 32,
-          "padding_bottom": 32
+          "padding_top": 0,
+          "padding_bottom": 0
         }
       },
       "main-password-header": {
@@ -327,6 +327,12 @@
               "heading": "Social",
               "menu": "social"
             }
+          },
+          "dc583b2f-778a-4ff4-b937-d06ab7eaf604": {
+            "type": "breadcrumb",
+            "settings": {
+              "alignment_breadcrumb": "center"
+            }
           }
         },
         "block_order": [
@@ -336,7 +342,8 @@
           "0ab51a22-bfd0-4d40-8344-bacf47ebe682",
           "4bb20c11-7066-4696-b580-2de3fbf9fa0c",
           "8f6ec5ca-267e-4429-ac3d-c23358b328da",
-          "c929164f-a119-45f6-b494-35b8acacb8b0"
+          "c929164f-a119-45f6-b494-35b8acacb8b0",
+          "dc583b2f-778a-4ff4-b937-d06ab7eaf604"
         ],
         "settings": {
           "color_scheme": "accent-1",
