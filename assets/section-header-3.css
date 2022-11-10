@@ -43,8 +43,14 @@
     width: auto;
 }
 
+.header-03 .header__mainnav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
 .header-03 .header__inline-menu {
     text-align: center;
+    margin:  0;
 }
 
 .header-03 header-drawer {
@@ -53,6 +59,10 @@
 
 .header-03 .header__icon--cart {
     margin-right: 0;
+}
+
+.header-03.header:not(.header--middle-left) .header__inline-menu {
+    margin-top: 0;
 }
 
 @media screen and (max-width: 989px) {
