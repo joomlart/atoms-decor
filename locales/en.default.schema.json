@@ -674,11 +674,14 @@
           "name": {
             "label": "Aligment Breadcrumb"
           },
-          "right": {
+          "left": {
             "label": "Left"
           },
           "center": {
             "label": "Center"
+          },
+          "right": {
+            "label": "Right"
           }
         }
       },
