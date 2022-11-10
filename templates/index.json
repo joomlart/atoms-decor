@@ -247,6 +247,23 @@
         "padding_bottom": 0
       }
     },
+    "60cc2e97-2f66-46c2-97b2-1f011b00994b": {
+      "type": "ja-recent-products",
+      "settings": {
+        "title": "Recent Product",
+        "heading_size": "h1",
+        "title_style": "02",
+        "description": "<p>Customers love new products, and now you can make sure that they always see the new arrivals in your store first.<\/p>",
+        "description_style": "body",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "padding_top": 96,
+        "padding_bottom": 96
+      }
+    },
     "1661322877e178c8dc": {
       "type": "featured-blog",
       "settings": {
@@ -265,24 +282,7 @@
         "show_view_all": false,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 96,
-        "padding_bottom": 96
-      }
-    },
-    "60cc2e97-2f66-46c2-97b2-1f011b00994b": {
-      "type": "ja-recent-products",
-      "settings": {
-        "title": "Recent Product",
-        "heading_size": "h1",
-        "title_style": "02",
-        "description": "<p>Customers love new products, and now you can make sure that they always see the new arrivals in your store first.<\/p>",
-        "description_style": "body",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "color_scheme": "background-1",
-        "columns_mobile": "2",
-        "padding_top": 96,
+        "padding_top": 0,
         "padding_bottom": 96
       }
     },
@@ -433,8 +433,8 @@
     "dc646dd5-5ce4-43d9-8821-2cdc64d8608f",
     "16639099959fcc61f9",
     "f4c8b5a2-f7f2-4ee6-bbef-8dfda6e9ce6b",
-    "1661322877e178c8dc",
     "60cc2e97-2f66-46c2-97b2-1f011b00994b",
+    "1661322877e178c8dc",
     "852a22c8-3302-4a08-9752-571a7d4ca859"
   ]
 }
