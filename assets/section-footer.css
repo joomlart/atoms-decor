@@ -48,9 +48,7 @@
 @media screen and (max-width: 749px) {
   .footer__content-bottom {
     flex-wrap: wrap;
-    padding-top: 0;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0 0 3.2rem;
     row-gap: 1.5rem;
   }
 
@@ -766,5 +764,7 @@ noscript .localization-selector.link {
   margin: 0;
   padding: 3.2rem;
 }
+
+
 
 
