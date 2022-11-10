@@ -3560,27 +3560,27 @@
       "preset": {
         "name": "Custom section"
       }
-    }
-  },
-  "ja-map": {
-    "name": "Map",
-    "settings": {
-      "title": {
-        "label": "Heading"
-      },
-      "address": {
-        "label": "Address",
-        "info": "eg. London, UK"
-      },
-      "zoom": {
-        "label": "Zoom"
-      },
-      "full_width": {
-        "label": "Make section full width"
-      }
     },
-    "presets": {
-      "name": "Map"
+    "ja-map": {
+      "name": "Map",
+      "settings": {
+        "title": {
+          "label": "Heading"
+        },
+        "address": {
+          "label": "Address",
+          "info": "eg. London, UK"
+        },
+        "zoom": {
+          "label": "Zoom"
+        },
+        "full_width": {
+          "label": "Make section full width"
+        }
+      },
+      "presets": {
+        "name": "Map"
+      }
     }
   }
 }
