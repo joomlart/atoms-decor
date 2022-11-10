@@ -362,7 +362,7 @@
           "enable_sticky_header": false,
           "margin_bottom": 0,
           "padding_top": 24,
-          "padding_bottom": 8
+          "padding_bottom": 24
         }
       },
       "footer-03": {
