@@ -1,7 +1,11 @@
 {{ 'section-blog-post.css' | asset_url | stylesheet_tag }}
 {{ 'component-sidebar.css' | asset_url | stylesheet_tag }}
 
-{%- render 'breadcrumb' -%}
+{% if section.settings.show_breadcrumb %} 
+  <div class="blog-breadcrumb">
+    {% render 'breadcrumb' %}
+  </div>
+{% endif %}
 <article class="article-template page-width  " itemscope itemtype="http://schema.org/BlogPosting">
 
     {%- for block in section.blocks -%}
@@ -399,6 +403,12 @@
     }
   ],
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_breadcrumb",
+      "default": false,
+      "label": "t:sections.breadcrumb.settings.show.label"
+    },
     {
       "type": "checkbox",
       "id": "show_previous_next_buttons",
