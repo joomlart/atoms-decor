@@ -144,10 +144,18 @@
   display: none;
 }
 
+.footer__content__left .footer__newsletter {
+  max-width: unset;
+}
+
 .footer-block--newsletter {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.footer__blocks-wrapper .footer-block--newsletter {
+  max-width: unset;
 }
 
 @media screen and (max-width: 749px) {
