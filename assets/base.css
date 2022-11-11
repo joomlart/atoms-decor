@@ -3215,7 +3215,7 @@ details-disclosure>details {
 .shopify-policy__container {
     max-width: var(--page-width);
     margin: 0 auto;
-    padding: 0 1.5rem calc(var(--grid-desktop-vertical-spacing)*2);
+    padding: calc(var(--grid-desktop-vertical-spacing)*2) 1.5rem;
 }
 
 .shopify-policy__title {
@@ -3224,6 +3224,7 @@ details-disclosure>details {
 
 .shopify-policy__title h1 {
     font-size: 3.6rem;
+    margin-top: 0;
 }
 
 @media screen and (min-width: 750px) {
