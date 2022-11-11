@@ -196,7 +196,7 @@
             "icon_position": "left",
             "text": "<p>Suspendisse mollis vitae nibh ut tristique. Vivamus a mi scelerisque risus tempor fermentum at a tortor. Ut bibendum nisi tristique dolor tempus, sed cursus sapien malesuada. Cras ornare leo nec.<\/p>",
             "link_label": "Shop the collection",
-            "link": "shopify:\/\/collections",
+            "link": "shopify:\/\/collections\/furniture",
             "link_style": "outline",
             "padding_left": 0,
             "padding_right": 96,
