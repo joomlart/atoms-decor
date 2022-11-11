@@ -48,7 +48,7 @@
         -%}
         <div id="Slide-{{ section.id }}-{{ forloop.index }}" class="grid__item {% if show_mobile_slider %} slider__slide{% endif %}">
 
-          <div class="collection__title title-wrapper title-wrapper--no-top-margin{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}">
+          <div class="collection__title title-wrapper title-wrapper--no-top-margin title-wrapper-01{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}">
             <div class="inner">
             {%- if block.settings.collection.title != blank -%}
               <h2 class="title {{ section.settings.heading_size }}">{{ block.settings.collection.title | escape }}</h2>
