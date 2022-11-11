@@ -5,7 +5,6 @@
 }
 
 .article-template > *:first-child:not(.article-template__hero-container) {
-  padding-top: var(--grid-desktop-vertical-spacing) ;
 }
 
 .article-template__content > p {
