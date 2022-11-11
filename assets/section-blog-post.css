@@ -11,6 +11,10 @@
   font-size: 1.6rem;
 }
 
+.article-template .blog-breadcrumb > .page-width {
+  padding: 0;
+}
+
 /* ========== Features Image
 ============================ */
 .article-template__hero-container {
