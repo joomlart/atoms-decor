@@ -41,7 +41,9 @@
         "sidebar": true,
         "blog_show_tags": true,
         "blog_show_lastest_post": true,
-        "blog_categories": true
+        "blog_categories": true,
+        "padding_top": 48,
+        "padding_bottom": 48
       }
     }
   },
