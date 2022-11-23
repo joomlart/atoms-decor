@@ -13,12 +13,12 @@
         "image_height": "medium",
         "show_date": true,
         "show_author": true,
-        "show_excerpt": false,
+        "show_excerpt": true,
         "alignment_content": "left",
         "show_sidebar": true,
         "show_collapse": true,
         "enable_sticky": true,
-        "sidebar_position": "left",
+        "sidebar_position": "right",
         "padding_top": 48,
         "padding_bottom": 48
       }
