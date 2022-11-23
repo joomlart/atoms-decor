@@ -2,6 +2,37 @@
   "sections": {
     "main": {
       "type": "main-blog",
+      "blocks": {
+        "df0b7f1e-0b91-48fc-8cb8-4531681dd66b": {
+          "type": "recent_post",
+          "settings": {
+            "show_block": true,
+            "heading": "Recent Post",
+            "number": 3,
+            "show_date": "true"
+          }
+        },
+        "5c3f631a-6823-4689-9632-85d94a7fd77d": {
+          "type": "category",
+          "settings": {
+            "show_block": true,
+            "heading": "Blog Categories"
+          }
+        },
+        "e5a0039a-6aa1-4e15-959e-24bb78d21e30": {
+          "type": "recent-tags",
+          "settings": {
+            "show_block": true,
+            "heading": "Recent Tag",
+            "number": 3
+          }
+        }
+      },
+      "block_order": [
+        "df0b7f1e-0b91-48fc-8cb8-4531681dd66b",
+        "5c3f631a-6823-4689-9632-85d94a7fd77d",
+        "e5a0039a-6aa1-4e15-959e-24bb78d21e30"
+      ],
       "settings": {
         "show_breadcrumb": false,
         "alignment_breadcrumb": "left",
