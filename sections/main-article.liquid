@@ -1,5 +1,20 @@
 {{ 'section-blog-post.css' | asset_url | stylesheet_tag }}
 {{ 'component-main-sidebar.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
 {%- liquid
   assign alignment_title = section.settings.alignment_title
   assign show_tags = section.settings.show_tags
@@ -12,8 +27,7 @@
   endif
 -%}
 
-<article class="article-template page-width  " itemscope itemtype="http://schema.org/BlogPosting">
-
+<article class="article-template page-width section-{{ section.id }}-padding" itemscope itemtype="http://schema.org/BlogPosting">
     {%- for block in section.blocks -%}
       {%- case block.type -%}
         {%- when '@app' -%}
