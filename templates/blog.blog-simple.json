@@ -1,15 +1,14 @@
 {
   "sections": {
     "main": {
-      "type": "main-blog",
+      "type": "main-blog-simple",
       "blocks": {
         "df0b7f1e-0b91-48fc-8cb8-4531681dd66b": {
           "type": "recent_post",
           "settings": {
             "show_block": true,
             "heading": "Recent Post",
-            "number": 3,
-            "show_date": "true"
+            "number": 3
           }
         },
         "5c3f631a-6823-4689-9632-85d94a7fd77d": {
