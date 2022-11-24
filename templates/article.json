@@ -35,15 +35,14 @@
         "share"
       ],
       "settings": {
-        "show_breadcrumb": false,
-        "show_previous_next_buttons": true,
-        "show_footer_article": true,
-        "sidebar": true,
-        "blog_show_tags": true,
-        "blog_show_lastest_post": true,
-        "blog_categories": true,
-        "padding_top": 48,
-        "padding_bottom": 48
+        "alignment_title": "center",
+        "show_tags": false,
+        "show_share": false,
+        "show_previous_next_buttons": false,
+        "show_sidebar": false,
+        "show_collapse": false,
+        "enable_sticky": false,
+        "sidebar_position": "right"
       }
     }
   },
