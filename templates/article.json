@@ -67,7 +67,7 @@
         "show_previous_next_buttons": true,
         "show_sidebar": true,
         "show_collapse": true,
-        "enable_sticky": false,
+        "enable_sticky": true,
         "sidebar_position": "right",
         "padding_top": 48,
         "padding_bottom": 48
