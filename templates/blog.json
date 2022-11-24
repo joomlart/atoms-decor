@@ -34,8 +34,6 @@
         "e5a0039a-6aa1-4e15-959e-24bb78d21e30"
       ],
       "settings": {
-        "show_breadcrumb": false,
-        "alignment_breadcrumb": "left",
         "description": "Create a stunning blog that suits your style. Choose from a selection of easy to use templates all with flexible layouts",
         "alignment_title": "left",
         "layout": "grid",
@@ -43,9 +41,9 @@
         "show_image": true,
         "image_height": "medium",
         "show_date": true,
-        "show_author": true,
+        "show_author": false,
         "show_excerpt": true,
-        "alignment_content": "left",
+        "alignment_content": "center",
         "show_sidebar": false,
         "show_collapse": true,
         "enable_sticky": true,
