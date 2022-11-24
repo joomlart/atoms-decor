@@ -26,13 +26,39 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "d530d491-8338-4ddc-bf4e-42ccc5962e25": {
+          "type": "recent_post",
+          "settings": {
+            "show_block": true,
+            "heading": "Recent Post",
+            "number": 3
+          }
+        },
+        "25966c80-1309-49f9-a90f-e642006d052d": {
+          "type": "category",
+          "settings": {
+            "show_block": true,
+            "heading": "Blog Categories"
+          }
+        },
+        "9f09e8e1-fa16-41da-83ad-6d3632cb5be8": {
+          "type": "recent-tags",
+          "settings": {
+            "show_block": true,
+            "heading": "Recent Tag",
+            "number": 3
+          }
         }
       },
       "block_order": [
         "bb646369-fa26-4a54-9523-51fa8da87946",
         "featured_image",
         "content",
-        "share"
+        "share",
+        "d530d491-8338-4ddc-bf4e-42ccc5962e25",
+        "25966c80-1309-49f9-a90f-e642006d052d",
+        "9f09e8e1-fa16-41da-83ad-6d3632cb5be8"
       ],
       "settings": {
         "alignment_title": "left",
