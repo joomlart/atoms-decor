@@ -2612,15 +2612,96 @@
               "content": "To display a rating, add a product rating app. [Learn more](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/page-types#product-rating-block)"
             }
           }
+        },
+        "custom_information": {
+          "name": "Custom Information",
+          "settings": {
+            "icon": {
+              "label": "Icon"
+            },
+            "title": {
+              "label": "Title"
+            },
+            "description": {
+              "label": "Description"
+            }
+          }
+        },
+        "trust_badges": {
+          "name": "Trust Badges",
+          "settings": {
+            "image-1": {
+              "label": "Choose Image 1"
+            },
+            "image-2": {
+              "label": "Choose Image 2"
+            },
+            "image-3": {
+              "label": "Choose Image 3"
+            },
+            "image-4": {
+              "label": "Choose Image 4"
+            },
+            "image-5": {
+              "label": "Choose Image 5"
+            }
+          }
+        },
+        "tabs": {
+          "name": "Tabs",
+          "settings": {
+            "title": {
+              "label": "Title Tab"
+            },
+            "content": {
+              "label": "Content Tab"
+            },
+            "image": {
+              "label": "Add Image"
+            },
+            "image_ratio": {
+              "label": "Ratio Image",
+              "options__1": {
+                "label": "Portrait"
+              },
+              "options__2": {
+                "label": "Square"
+              },
+              "options__3": {
+                "label": "Ratio 3\/4"
+              },
+              "options__4": {
+                "label": "Ratio 4\/3"
+              }
+            }
+          }
         }
       },
       "settings": {
+        "general": {
+          "label": "General"
+        },
         "header": {
           "content": "Media",
           "info": "Learn more about [media types.](https:\/\/help.shopify.com\/manual\/products\/product-media)"
         },
+        "main-image": {
+          "label": "Main Image"
+        },
+        "tabs": {
+          "label": "Tabs"
+        },
+        "thumbnail": {
+          "label": "Thumbnail"
+        },
+        "sticky": {
+          "label": "Sticky Add To Cart",
+          "enable_sticky_add_to_cart": " Enable Sticky Add To Cart",
+          "info": "Recommend don't use when enable sticky content and only active on layout full width"
+        },
         "enable_sticky_info": {
-          "label": "Enable sticky content on desktop"
+          "label": "Enable sticky content on desktop",
+          "info": "Active when use thumbnail layout stacked or stacked full"
         },
         "enable_media_gallery_slider": {
           "label": "Enable slider for Gallery"
@@ -2638,6 +2719,25 @@
           },
           "options__4": {
             "label": "Stacked full"
+          },
+          "options__5": {
+            "label": "Grid 2 Column"
+          },
+          "options__6": {
+            "label": "Grid 3 Column"
+          }
+        },
+        "gallery_position": {
+          "label": "Position Gallery",
+          "info": "Position gallery for layout thumbnail or thumbnail carousel",
+          "options__1": {
+            "label": "Bottom"
+          },
+          "options__2": {
+            "label": "Left"
+          },
+          "options__3": {
+            "label": "Right"
           }
         },
         "media_size": {
@@ -2689,8 +2789,19 @@
         "heading_other": {
           "content": "Other"
         },
-        "addition_class": {
-          "content": "Addition Class"
+        "layout_product": {
+          "content": "Layout Product",
+          "label__1": "Default",
+          "label__2": "Full Width"
+        },
+        "layout_description": {
+          "content": "Description Style",
+          "label__1": "Accordion",
+          "label__2": "Tabs",
+          "label__3": "No Tabs"
+        },
+        "enable_add_cart_bottom": {
+          "label": "Enable Add To Cart Bottom"
         }
       }
     },
