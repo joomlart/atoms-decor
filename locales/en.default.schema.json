@@ -1876,6 +1876,18 @@
           "options__3": {
             "label": "Right"
           }
+        },
+        "alignment__vertical": {
+          "label": "Alignment content vertical",
+          "options__1": {
+            "label": "Start"
+          },
+          "options__2": {
+            "label": "Center"
+          },
+          "options__3": {
+            "label": "End"
+          }
         }
       }
     },
