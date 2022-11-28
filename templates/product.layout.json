@@ -48,6 +48,12 @@
           "settings": {
           }
         },
+        "a9c5dfaf-b44f-4dad-a7d0-617c5c539583": {
+          "type": "trust_badges",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/image-trust_9cf48f22-6c8a-4a39-b604-64b168dc56be.webp"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -106,10 +112,12 @@
             "share_label": "Share"
           }
         },
-        "a9c5dfaf-b44f-4dad-a7d0-617c5c539583": {
-          "type": "trust_badges",
+        "3a3d717d-5ca8-4b50-9950-dca1700d6dfa": {
+          "type": "tabs",
           "settings": {
-            "image_1": "shopify:\/\/shop_images\/image-trust_9cf48f22-6c8a-4a39-b604-64b168dc56be.webp"
+            "title_tabs": "Shipping",
+            "content_tabs": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium enim ut fringilla. Quisque eu lacus enim. Proin eleifend, mi eu aliquam euismod, arcu tortor consectetur nisi, et elementum nibh felis vel ante. Fusce nec tristique enimdoloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.<\/p>",
+            "image_ratio_tabs": "43"
           }
         }
       },
@@ -121,6 +129,7 @@
         "price",
         "variant_picker",
         "quantity_selector",
+        "a9c5dfaf-b44f-4dad-a7d0-617c5c539583",
         "buy_buttons",
         "description",
         "collapsible-row-2",
@@ -128,7 +137,7 @@
         "collapsible-row-0",
         "collapsible-row-3",
         "share",
-        "a9c5dfaf-b44f-4dad-a7d0-617c5c539583"
+        "3a3d717d-5ca8-4b50-9950-dca1700d6dfa"
       ],
       "settings": {
         "layout_product": "default",
