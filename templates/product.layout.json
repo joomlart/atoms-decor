@@ -54,12 +54,6 @@
             "image_1": "shopify:\/\/shop_images\/image-trust_9cf48f22-6c8a-4a39-b604-64b168dc56be.webp"
           }
         },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
         "description": {
           "type": "description",
           "settings": {
@@ -106,6 +100,18 @@
             "page": ""
           }
         },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "220593b5-afa9-4db0-b593-605968fbe79e": {
+          "type": "product_upsell",
+          "settings": {
+            "product_upsell": "crofton-glazed-mug"
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -146,12 +152,13 @@
         "variant_picker",
         "quantity_selector",
         "a9c5dfaf-b44f-4dad-a7d0-617c5c539583",
-        "buy_buttons",
         "description",
         "collapsible-row-2",
         "collapsible-row-1",
         "collapsible-row-0",
         "collapsible-row-3",
+        "buy_buttons",
+        "220593b5-afa9-4db0-b593-605968fbe79e",
         "share",
         "3a3d717d-5ca8-4b50-9950-dca1700d6dfa",
         "bd308948-4b46-449f-9e40-c3716fd2ce58",
