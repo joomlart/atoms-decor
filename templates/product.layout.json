@@ -119,6 +119,22 @@
             "content_tabs": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium enim ut fringilla. Quisque eu lacus enim. Proin eleifend, mi eu aliquam euismod, arcu tortor consectetur nisi, et elementum nibh felis vel ante. Fusce nec tristique enimdoloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.<\/p>",
             "image_ratio_tabs": "43"
           }
+        },
+        "bd308948-4b46-449f-9e40-c3716fd2ce58": {
+          "type": "tabs",
+          "settings": {
+            "title_tabs": "Payment",
+            "content_tabs": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium enim ut fringilla. Quisque eu lacus enim. Proin eleifend, mi eu aliquam euismod, arcu tortor consectetur nisi, et elementum nibh felis vel ante. Fusce nec tristique enimdoloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam perspiciatis unde omnis iste natus error sit voluptatem accusantium enim ut fringilla. Quisque eu lacus enim. Proin eleifend, mi eu aliquam euismod, arcu tortor consectetur nisi, et elementum nibh felis vel ante. Fusce nec tristique enimdoloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.voluptatem quia voluptas sit aspernatur aut odit aut fugit.<\/p>",
+            "image_ratio_tabs": "43"
+          }
+        },
+        "ef02343c-d9d3-47de-96db-2d94084e4edb": {
+          "type": "tabs",
+          "settings": {
+            "title_tabs": "FAQ",
+            "content_tabs": "<p>This is FAQ<\/p>",
+            "image_ratio_tabs": "43"
+          }
         }
       },
       "block_order": [
@@ -137,19 +153,21 @@
         "collapsible-row-0",
         "collapsible-row-3",
         "share",
-        "3a3d717d-5ca8-4b50-9950-dca1700d6dfa"
+        "3a3d717d-5ca8-4b50-9950-dca1700d6dfa",
+        "bd308948-4b46-449f-9e40-c3716fd2ce58",
+        "ef02343c-d9d3-47de-96db-2d94084e4edb"
       ],
       "settings": {
         "layout_product": "default",
         "enable_sticky_info": true,
         "media_size": "medium",
-        "gallery_layout": "stacked",
-        "gallery_position": "left",
+        "gallery_layout": "thumbnail",
+        "gallery_position": "bottom",
         "thumbnail_ratio": "11",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
-        "layout_description": "tabs",
+        "layout_description": "accordion",
         "padding_top": 0,
         "padding_bottom": 48
       }

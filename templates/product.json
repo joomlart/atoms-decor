@@ -125,16 +125,18 @@
         "share"
       ],
       "settings": {
+        "layout_product": "default",
         "enable_sticky_info": false,
-        "gallery_layout": "thumbnail_slider",
         "media_size": "large",
-        "item_ratio": "43",
+        "gallery_layout": "thumbnail_slider",
+        "gallery_position": "bottom",
+        "thumbnail_ratio": "34",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
+        "layout_description": "tabs",
         "padding_top": 0,
-        "padding_bottom": 48,
-        "addition_class": "gallery_full_width"
+        "padding_bottom": 48
       }
     },
     "b56b38a8-e2f8-4c99-903d-bdd158723b66": {
